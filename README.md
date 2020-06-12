@@ -11,8 +11,17 @@ In addition to manual mission creation, it is possible to automate the process a
 
 
 ## StServerUploader usage
+
+### Windows
+
 ```
 stserveruploader.exe -i ./data/missionList.csv -s http://localhost:8080  -u superAdmin -p 123456
+```
+
+### Linux
+
+```
+./stserveruploader.run -i ./data/missionList.csv -s http://localhost:8080  -u superAdmin -p 123456
 ```
 
 
