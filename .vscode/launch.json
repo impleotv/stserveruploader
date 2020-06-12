@@ -8,7 +8,7 @@
             "name": "Upload",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/app.js",
+            "program": "${workspaceRoot}/src/app.js",
             "stopOnEntry": false,
             "args": [             
                 "-i=./data/missionList.csv",

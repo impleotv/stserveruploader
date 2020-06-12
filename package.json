@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d distr --presets es2015",
-    "package": "pkg package.json --output stserveruploader.exe"
+    "pkgWin": "pkg ./distr/app.js --targets node12-win-x64  --output stserveruploader.exe",    
+    "pkgLinux": "pkg ./distr/app.js --targets node12-linux-x64  --output stserveruploader.run",
+    "pkgAll": "npm run pkgWin && npm run pkgLinux"
   },
   "type": "module",
   "repository": {
@@ -29,10 +31,10 @@
     "moment": "^2.26.0",
     "mqtt": "^4.1.0"
   },
-  "bin": "app.js",
+  "bin": "./distr/app.js",
   "pkg": {
     "options": [
-      "experimental-modules"
+   
     ],
     "assets": []
   },
