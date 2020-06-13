@@ -96,6 +96,18 @@ Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mis
 ,TestMission2,Test Mission2,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:\Movie\DeadSea-1-1080p-6M-A.ts
 ```
 
+### Platform options:
+
+Platform type can be one of the following:
+- 'Plane'
+- 'Helicopter'
+- 'Quadcopter'
+- 'Camera'
+- 'ROV'
+- 'Diver'
+
+ default: 'Plane'
+
 
 
 

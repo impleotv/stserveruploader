@@ -1,0 +1,15 @@
+Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
+,Truck,ESRI,"test,ESRI,Truck",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Truck.ts
+,ArcVideo,ESRI,"test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/ArcVideo_clip.ts
+,Video_Clip_1,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_1.ts
+,Video_Clip_2,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_2.ts
+,Cheyenne,ESRI,"flight,test,ESRI,Cheyenne",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne.ts
+,Cheyenne_Handoff,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne_Handoff.ts
+,CheyenneVAhospital.ts,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/CheyenneVAhospital.ts
+,DV3_171350Z,Bawn,"flight,test,Bawn",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/Bawn/DV3_171350Z.ts
+,Austria-Piesendorf,Austria,Austria,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Austria/Austria-Piesendorf-AVC-720P_3M.ts
+,DeadSea,DeadSea,"Israel, Dead Sea",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/DeadSea/DeadSea-1-720p-3M.ts
+,Ashdod1,Ashdod 1,"Israel, Ashdod",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ashdod/Ashdod-1-720p-3M.ts
+,Ashdod2,Ashdod 2,"Israel, Ashdod",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ashdod/Ashdod-2-720p-3M.ts
+,Arava1,Arava 1,"Israel, Arava",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Arava/arava-1-720p-3M.ts
+,Herzelia1,Herzelia,"Israel, Herzelia",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-1-720p-3M.ts
