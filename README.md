@@ -27,7 +27,7 @@ stserveruploader.exe -i ./data/missionList.csv -s http://localhost:8080  -u supe
 
 ### Arguments
 
-| Flag     |      Name           | Description 								        	|
+| Flag     |      Name           | Description 								                   |
 |:---------|:--------------------|:-----------------------------------------------------|
 | -i       |  --input            | Input configuration file path                        |
 | -s       |  --server           | Server url                                           |
