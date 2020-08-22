@@ -30,6 +30,33 @@
             "sourceMaps": false,
             "outFiles": [],
             "outputCapture": "std"
+        },
+        {
+            "name": "Upload (Linux)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/app.js",
+            "stopOnEntry": false,
+            "args": [             
+                "-i=./data/missionListLinux.csv",
+                "-s=http://localhost:8080",
+                "-u=superAdmin",
+                "-p=123456"
+            ],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy",
+                "--experimental-modules"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": [],
+            "outputCapture": "std"
         }
     ]
 }

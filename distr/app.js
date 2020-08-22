@@ -240,7 +240,7 @@ function connectMqtt() {
             port: mqttCfg.wsPort
         };
 
-        mqttClient = _mqtt2.default.connect('ws://' + mqttCfg.broker, options);
+        mqttClient = _mqtt2.default.connect(`${mqttCfg.wsProtocol}://` + mqttCfg.broker, options);
         mqttClient.on('connect', function () {
 
             console.log('app connected to mqtt');
