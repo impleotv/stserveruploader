@@ -1,0 +1,10 @@
+Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
+,Truck,ESRI,"test,ESRI,Truck",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,~/movies/ArcGIS/Truck.ts
+,ArcVideo,ESRI,"test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,~/movies/ArcGIS/ArcVideo_clip.ts
+,Video_Clip_1,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,~/movies/ArcGIS/Video_Clip_1.ts
+,Video_Clip_2,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,~/movies/ArcGIS/Video_Clip_2.ts
+,Cheyenne,ESRI,"flight,test,ESRI,Cheyenne",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,~/movies/ArcGIS/Cheyenne.ts
+,Cheyenne_Handoff,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,~/movies/ArcGIS/Cheyenne_Handoff.ts
+,CheyenneVAhospital.ts,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,~/movies/ArcGIS/CheyenneVAhospital.ts
+,DV3_171350Z,Bawn,"flight,test,Bawn",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,~/movies/Bawn/DV3_171350Z.ts
+,Austria-Piesendorf,Austria,Austria,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,~/movies/Impleo/Austria/Austria-Piesendorf-AVC_1080_10M.ts
