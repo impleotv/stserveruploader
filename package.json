@@ -1,12 +1,12 @@
 {
   "name": "stserveruploader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "StServer mission uploader",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d distr --presets es2015",
-    "pkgWin": "pkg ./distr/app.js --targets node12-win-x64  --output stserveruploader.exe",    
+    "pkgWin": "pkg ./distr/app.js --targets node12-win-x64  --output stserveruploader.exe",
     "pkgLinux": "pkg ./distr/app.js --targets node12-linux-x64  --output stserveruploader.run",
     "pkgAll": "npm run pkgWin && npm run pkgLinux"
   },
@@ -33,9 +33,7 @@
   },
   "bin": "./distr/app.js",
   "pkg": {
-    "options": [
-   
-    ],
+    "options": [],
     "assets": []
   },
   "devDependencies": {

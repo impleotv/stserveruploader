@@ -150,7 +150,7 @@ async function connectServer(server, token) {
     return new Promise(async (resolve, reject) => {
         try {
             const ret = await axios(
-                `${server}/info`, {
+                `${server}/api/info`, {
                 headers: { 'Authorization': `Basic ${token}` }
             });
 
@@ -176,17 +176,21 @@ async function getMqttCfg(server, token) {
     return new Promise(async (resolve, reject) => {
         try {
             const ret = await axios(
-                `${server}/mqttConfig`, {
+                `${server}/api/mqttConfig`, {
                 headers: { 'Authorization': `Basic ${token}` }
             });
 
             mqttCfg = ret.data;
 
             const brokerUrl = url.parse(mqttCfg.broker);
+            const serverUrl = url.parse(server);
+
             if (brokerUrl.hostname === 'localhost') {
-                const serverUrl = url.parse(server);
+               
                 mqttCfg.broker = serverUrl.hostname;
             }
+
+            mqttCfg.wsProtocol = serverUrl.protocol === 'https:' ? 'wss' : 'ws'; 
 
             console.log('MQTT broker: ' + colors.yellow(`${mqttCfg.broker}:${mqttCfg.wsPort}`));
             resolve();
@@ -216,7 +220,7 @@ function connectMqtt() {
             port: mqttCfg.wsPort,
         };
 
-        mqttClient = mqtt.connect(`ws://${mqttCfg.broker}`, options);
+        mqttClient = mqtt.connect(`${mqttCfg.wsProtocol}://${mqttCfg.broker}`, options);
         mqttClient.on('connect', () => {
 
             console.log('app connected to mqtt')
@@ -365,7 +369,7 @@ async function uploadMission(mission, cb) {
 
             // Create mission
             const ret = await axios.post(
-                `${server}/missions`, mission, {
+                `${server}/api/missions`, mission, {
                 headers: { 'Authorization': `Basic ${token}` }
             });
 
@@ -404,7 +408,7 @@ async function uploadMission(mission, cb) {
                     // Make sure no forward slash is in the sensor names                  
                     axios({
                         method: 'post',
-                        url: `${server}/missions/upload/${mi.name}/${s.name}?processAfterUpload=addToProcessingQueue`,
+                        url: `${server}/api/missions/upload/${mi.name}/${s.name}?processAfterUpload=immediate`,
                         data: form_data,
                         headers: {
                             'Authorization': `Basic ${token}`,
@@ -445,7 +449,7 @@ async function processAllMissions(config) {
 
         axios({
             method: 'put',
-            url: `${server}/missions/process`,
+            url: `${server}/api/missions/process`,
             headers: {
                 'Authorization': `Basic ${token}`
             },
