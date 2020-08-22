@@ -179,7 +179,7 @@ async function connectServer(server, token) {
 
     return new Promise(async function (resolve, reject) {
         try {
-            var ret = await (0, _axios2.default)(server + '/info', {
+            var ret = await (0, _axios2.default)(server + '/api/info', {
                 headers: { 'Authorization': 'Basic ' + token }
             });
 
@@ -202,17 +202,21 @@ async function getMqttCfg(server, token) {
 
     return new Promise(async function (resolve, reject) {
         try {
-            var ret = await (0, _axios2.default)(server + '/mqttConfig', {
+            var ret = await (0, _axios2.default)(server + '/api/mqttConfig', {
                 headers: { 'Authorization': 'Basic ' + token }
             });
 
             mqttCfg = ret.data;
 
             var brokerUrl = _url2.default.parse(mqttCfg.broker);
+            var serverUrl = _url2.default.parse(server);
+
             if (brokerUrl.hostname === 'localhost') {
-                var serverUrl = _url2.default.parse(server);
+
                 mqttCfg.broker = serverUrl.hostname;
             }
+
+            mqttCfg.wsProtocol = serverUrl.protocol === 'https:' ? 'wss' : 'ws';
 
             console.log('MQTT broker: ' + _colors2.default.yellow(mqttCfg.broker + ':' + mqttCfg.wsPort));
             resolve();
@@ -240,7 +244,7 @@ function connectMqtt() {
             port: mqttCfg.wsPort
         };
 
-        mqttClient = _mqtt2.default.connect(`${mqttCfg.wsProtocol}://` + mqttCfg.broker, options);
+        mqttClient = _mqtt2.default.connect(mqttCfg.wsProtocol + '://' + mqttCfg.broker, options);
         mqttClient.on('connect', function () {
 
             console.log('app connected to mqtt');
@@ -410,7 +414,7 @@ async function uploadMission(mission, cb) {
             }
 
             // Create mission
-            var ret = await _axios2.default.post(server + '/missions', mission, {
+            var ret = await _axios2.default.post(server + '/api/missions', mission, {
                 headers: { 'Authorization': 'Basic ' + token }
             });
 
@@ -444,9 +448,11 @@ async function uploadMission(mission, cb) {
                         }
 
                         // Make sure no forward slash is in the sensor names                  
-                    };(0, _axios2.default)({
+                    };
+                    
+                    (0, _axios2.default)({
                         method: 'post',
-                        url: server + '/missions/upload/' + mi.name + '/' + s.name + '?processAfterUpload=addToProcessingQueue',
+                        url: server + '/api/missions/upload/' + mi.name + '/' + s.name + '?processAfterUpload=immediate',
                         data: form_data,
                         headers: {
                             'Authorization': 'Basic ' + token,
@@ -484,7 +490,7 @@ async function processAllMissions(config) {
 
         (0, _axios2.default)({
             method: 'put',
-            url: server + '/missions/process',
+            url: server + '/api/missions/process',
             headers: {
                 'Authorization': 'Basic ' + token
             }
