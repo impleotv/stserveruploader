@@ -408,7 +408,7 @@ async function uploadMission(mission, cb) {
                     // Make sure no forward slash is in the sensor names                  
                     axios({
                         method: 'post',
-                        url: `${server}/api/missions/upload/${mi.name}/${s.name}?processAfterUpload=immediate`,
+                        url: `${server}/api/missions/upload/${mi.name}/${s.name}?processAfterUpload=addToProcessingQueue`,
                         data: form_data,
                         headers: {
                             'Authorization': `Basic ${token}`,
