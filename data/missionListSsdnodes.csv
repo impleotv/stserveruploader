@@ -32,3 +32,5 @@ Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mis
 ,MCSO-2016-07-15-164640,CSA,"MCSO,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/MCSO-2016-07-15-164640_avc.ts
 ,GOPR1989_TT_Beach,CSA,"beach,CSA",Demo,-,Quadcopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/GOPR1989_TT_Beach_avc.ts
 ,GOPR1998_TT_Valley,CSA,"valley,CSA",Demo,-,Quadcopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/GOPR1998_TT_Valley_avc.ts
+,CAE_2014_03_15_0_001,CAE,"CAE",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CAE/CAE_2014_03_15_0_001.ts
+,CAE_2014_03_15_0_003,CAE,"CAE",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CAE/CAE_2014_03_15_0_003.ts
