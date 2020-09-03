@@ -15,10 +15,10 @@ Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mis
 ,Herzelia6,Central Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Herzelia/Herzelia-6-1080p-6M.ts
 ,Italy1,Italy,Italy,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Italy/Luca/Luca-6M.ts
 ,Austria-Piesendorf,Austria,Austria,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Austria/Austria-Piesendorf-AVC_1080_10M.ts
-,DV3_171350Z,Bawn,"flight,test,Bawn",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_171350Z.ts
-,DV3_140612Z,Bawn,"flight,test,Bawn",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_140612Z_001.ts
-,DV3_142252Z,Bawn,"flight,test,Bawn",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_142252Z.ts
-,DV3_161649Z,Bawn,"flight,test,Bawn",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_161649Z.ts
+,DV3_171350Z,Bawn,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_171350Z.ts
+,DV3_140612Z,Bawn,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_140612Z_001.ts
+,DV3_142252Z,Bawn,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_142252Z.ts
+,DV3_161649Z,Bawn,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_161649Z.ts
 ,Inlet_area_St_Lucie_River,CSA,"test,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Inlet_area_St_Lucie_River_avc.ts
 ,High_altitude_St_Lucie_inlet,CSA,"test,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/High_altitude_St_Lucie_inlet_avc.ts
 ,Jupiter_Isl_Beach_North_to_South,CSA,"Jupiter,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Jupiter_Isl_Beach_North_to_South_avc.ts
