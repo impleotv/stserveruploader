@@ -162,7 +162,7 @@ async function connectServer(server, token) {
             resolve();
 
         } catch (error) {
-            reject(new Error(`Error connecting to server - ${error.message}`));
+            reject(new Error(`Error connecting to server - ${error.message} -${error.response.statusText}`));
         }
     })
 }
@@ -184,15 +184,25 @@ async function getMqttCfg(server, token) {
 
             const brokerUrl = url.parse(mqttCfg.broker);
             const serverUrl = url.parse(server);
+            const wsProtocol = serverUrl.protocol === 'https:' ? 'wss' : 'ws'; 
 
-            if (brokerUrl.hostname === 'localhost') {
-               
-                mqttCfg.broker = serverUrl.hostname;
-            }
+            if (serverUrl.hostname === 'localhost') {
+                // for localhost server, use localhost broker               
+                if (brokerUrl.hostname === 'localhost') {
+                    mqttCfg.broker = `${wsProtocol}://${serverUrl.hostname}:${mqttCfg.wsPort}`;
+                }       
+              }
+              else {
+                if (mqttCfg.mqtt_broker_ws != undefined) {
+                    mqttCfg.broker = mqtt.mqtt_broker_ws;
+                }
+                else {
+                  // Use /ws in case we're on port 80 and most likely using reverse proxy
+                  mqttCfg.broker = serverUrl.port === '' || serverUrl.port === 80 ||  serverUrl.port === null? `${wsProtocol}://${serverUrl.hostname}/ws` : `${wsProtocol}://${serverUrl.hostname}:${mqttCfg.wsPort}`;
+                }
+              }
 
-            mqttCfg.wsProtocol = serverUrl.protocol === 'https:' ? 'wss' : 'ws'; 
-
-            console.log('MQTT broker: ' + colors.yellow(`${mqttCfg.broker}:${mqttCfg.wsPort}`));
+            console.log('MQTT broker: ' + colors.yellow(`${mqttCfg.broker}`));
             resolve();
 
         } catch (error) {
@@ -200,6 +210,7 @@ async function getMqttCfg(server, token) {
         }
     })
 }
+
 
 
 /**
@@ -217,10 +228,10 @@ function connectMqtt() {
             clientId: (`uploadProcClient-${random}`),
             clean: true,
             connectTimeout: 50000,
-            port: mqttCfg.wsPort,
+          //  port: mqttCfg.wsPort,
         };
 
-        mqttClient = mqtt.connect(`${mqttCfg.wsProtocol}://${mqttCfg.broker}`, options);
+        mqttClient = mqtt.connect(`${mqttCfg.broker}`, options);
         mqttClient.on('connect', () => {
 
             console.log('app connected to mqtt')
@@ -577,15 +588,15 @@ async function processAllMissions(config) {
  */
 function parseArguments() {
     try {
-        parser = new argparse.ArgumentParser({ addHelp: true, description: 'Uploader', epilog: 'Start Uploader...' });
-        parser.addArgument(['-i', '--input'], { metavar: '', help: 'Input configuration file path' });
-        parser.addArgument(['-s', '--server'], { metavar: '', help: 'Server url' });
-        parser.addArgument(['-u', '--user'], { metavar: '', help: 'User name' });
-        parser.addArgument(['-p', '--password'], { metavar: '', help: 'Password' });
-        parser.addArgument('--printUsage', { metavar: '', defaultValue: 'false', help: 'Print args description (true/false)' });
-        parser.addArgument(['-v', '--version'], { metavar: '', help: 'Version' });
+        parser = new argparse.ArgumentParser({ add_help: true, description: 'Uploader', epilog: 'Start Uploader...' });
+        parser.add_argument('-i', '--input', { metavar: '', help: 'Input configuration file path' });
+        parser.add_argument('-s', '--server', { metavar: '', help: 'Server url' });
+        parser.add_argument('-u', '--user', { metavar: '', help: 'User name' });
+        parser.add_argument('-p', '--password', { metavar: '', help: 'Password' });
+        parser.add_argument('--printUsage', { metavar: '', defaultValue: 'false', help: 'Print args description (true/false)' });
+        parser.add_argument('-v', '--version', { metavar: '', help: 'Version' });
 
-        argv = parser.parseArgs();
+        argv = parser.parse_args();
         if (JSON.parse(argv.printUsage.trim()))
             parser.printHelp();
     } catch (error) {
