@@ -381,7 +381,9 @@ async function uploadMission(mission, cb) {
             // Create mission
             const ret = await axios.post(
                 `${server}/api/missions`, mission, {
-                headers: { 'Authorization': `Basic ${token}` }
+                    maxContentLength: Infinity,
+                    maxBodyLength: Infinity,
+                    headers: { 'Authorization': `Basic ${token}` }
             });
 
             const mi = ret.data.mission;
@@ -421,6 +423,8 @@ async function uploadMission(mission, cb) {
                         method: 'post',
                         url: `${server}/api/missions/upload/${mi.name}/${s.name}?processAfterUpload=addToProcessingQueue`,
                         data: form_data,
+                        maxContentLength: Infinity,
+                        maxBodyLength: Infinity,
                         headers: {
                             'Authorization': `Basic ${token}`,
                             'Content-Type': 'multipart/form-data; boundary=' + `${form_data._boundary}`

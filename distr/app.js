@@ -24,9 +24,9 @@ var _cliProgress = require('cli-progress');
 
 var _cliProgress2 = _interopRequireDefault(_cliProgress);
 
-var _axios = require('axios');
+var _axios2 = require('axios');
 
-var _axios2 = _interopRequireDefault(_axios);
+var _axios3 = _interopRequireDefault(_axios2);
 
 var _formData = require('form-data');
 
@@ -50,11 +50,11 @@ var _moment2 = _interopRequireDefault(_moment);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/*
-*    Uploader.
-*
-*    Receives csv or json files describing missions. Creates and uploads the files.
-*/
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; } /*
+                                                                                                                                                                                                                  *    Uploader.
+                                                                                                                                                                                                                  *
+                                                                                                                                                                                                                  *    Receives csv or json files describing missions. Creates and uploads the files.
+                                                                                                                                                                                                                  */
 
 var argv = void 0;
 var parser = void 0;
@@ -179,7 +179,7 @@ async function connectServer(server, token) {
 
     return new Promise(async function (resolve, reject) {
         try {
-            var ret = await (0, _axios2.default)(server + '/api/info', {
+            var ret = await (0, _axios3.default)(server + '/api/info', {
                 headers: { 'Authorization': 'Basic ' + token }
             });
 
@@ -202,7 +202,7 @@ async function getMqttCfg(server, token) {
 
     return new Promise(async function (resolve, reject) {
         try {
-            var ret = await (0, _axios2.default)(server + '/api/mqttConfig', {
+            var ret = await (0, _axios3.default)(server + '/api/mqttConfig', {
                 headers: { 'Authorization': 'Basic ' + token }
             });
 
@@ -422,7 +422,9 @@ async function uploadMission(mission, cb) {
             }
 
             // Create mission
-            var ret = await _axios2.default.post(server + '/api/missions', mission, {
+            var ret = await _axios3.default.post(server + '/api/missions', mission, {
+                maxContentLength: Infinity,
+                maxBodyLength: Infinity,
                 headers: { 'Authorization': 'Basic ' + token }
             });
 
@@ -432,6 +434,7 @@ async function uploadMission(mission, cb) {
             var sensors = mission.sensors;
             if (sensors && Array.isArray(sensors) && sensors.length > 0) {
                 sensors.forEach(async function (s) {
+                    var _axios;
 
                     if (s.files && s.files.length > 0) {
                         s.files = splitToArray(s.files);
@@ -456,20 +459,20 @@ async function uploadMission(mission, cb) {
                         }
 
                         // Make sure no forward slash is in the sensor names                  
-                    };(0, _axios2.default)({
+                    };(0, _axios3.default)((_axios = {
                         method: 'post',
                         url: server + '/api/missions/upload/' + mi.name + '/' + s.name + '?processAfterUpload=addToProcessingQueue',
                         data: form_data,
+                        maxContentLength: Infinity,
+                        maxBodyLength: Infinity,
                         headers: {
                             'Authorization': 'Basic ' + token,
                             'Content-Type': 'multipart/form-data; boundary=' + ('' + form_data._boundary)
-                        },
-                        maxContentLength: Infinity,
-                        onUploadProgress: function onUploadProgress(progressEvent) {
-                            //         const progress = ((progressEvent.loaded / progressEvent.total) * 100).toFixed(0);
-
                         }
-                    }).then(function (res) {
+                    }, _defineProperty(_axios, 'maxContentLength', Infinity), _defineProperty(_axios, 'onUploadProgress', function onUploadProgress(progressEvent) {
+                        //         const progress = ((progressEvent.loaded / progressEvent.total) * 100).toFixed(0);
+
+                    }), _axios)).then(function (res) {
                         //console.log('Upload complete');
                         resolve();
                     }).catch(function (error) {
@@ -494,7 +497,7 @@ async function processAllMissions(config) {
 
         var progressBar = void 0;
 
-        (0, _axios2.default)({
+        (0, _axios3.default)({
             method: 'put',
             url: server + '/api/missions/process',
             headers: {
