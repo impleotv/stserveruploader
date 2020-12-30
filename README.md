@@ -111,4 +111,4 @@ Platform type can be one of the following:
 
 
 
-IMPLEOTV SYSTEMS LTD, 2020.
+© IMPLEOTV SYSTEMS LTD, 2020.

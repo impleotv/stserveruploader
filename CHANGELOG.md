@@ -1,6 +1,10 @@
 
 Change Log
 ==========
+
+### Ver. 1.0.3
+- Dependency update
+- Add socket.io
 ### Ver. 1.0.2
 - WS connection
 
