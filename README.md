@@ -52,38 +52,44 @@ For example:
 ```json
 [
     {
-       "Mission":{
-          "_id":"",
-          "name":"TestMission",
-          "description":"Test Mission",
-          "tags":"flight,test",
-          "usergroups":"Demo, Group1",
-          "platform":{
-             "name":"Heron",
-             "type":"Plane"
+      "name": "TestMission",
+      "description": "Test",        
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "#004dcf",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "Platform"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,   
           },
-          "securityClassification":"UNCLASSIFIED",
-          "sensors":[
-             {
-                "name":"EO-IR",
-                "description":"Main EO/IR",
-                "type":"video",
-                "tags":"camera",
-                "sampling":"200",
-                "files":"D:\\Movie\\ArcGIS\\Truck.ts"
-             },
-             {
-                "name":"Tail",
-                "description":"Tail camera",
-                "type":"video",
-                "tags":"camera",
-                "sampling":"200",
-                "files":"D:\\Movie\\Operator.ts"
-             }
+          "type": "video",
+          "views": 0,
+          "tags": ['Test'],
+          "name": "EO-IR",
+          "description": "Sensor",      
+          "assets": [
+            "/home/alexc/videos/Test.ts"
           ]
-       }
+        }
+      ],
+      "rating": 2,
+      "tags": [
+        "Test"
+      ],
+      "sortOrder": 2000
     }
- ]
+]
  ```
 
 ### CSV configuration file format
@@ -91,9 +97,9 @@ For example:
 For example:
 
 ```csv
-Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
-,TestMission,Test Mission,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Truck.ts
-,TestMission2,Test Mission2,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:\Movie\DeadSea-1-1080p-6M-A.ts
+Mission._id,Mission.name,Mission.description,Mission.sortOrder,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.assets
+,TestMission,Test Mission, 100, "flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Truck.ts
+,TestMission2,Test Mission2,200,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:\Movie\DeadSea-1-1080p-6M-A.ts
 ```
 
 ### Platform options:
@@ -111,4 +117,4 @@ Platform type can be one of the following:
 
 
 
-© IMPLEOTV SYSTEMS LTD, 2020.
+© IMPLEOTV SYSTEMS LTD, 2021.
