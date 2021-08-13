@@ -1,0 +1,49 @@
+[
+    {
+      "name": "Cheyenne-A",
+      "description": "Test",
+      "thumbnail": "Cheyenne-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-06-01T15:27:19.013Z",
+      "startTime": "2012-09-19T20:40:44.105Z",
+      "endTime": "2012-09-19T20:42:08.999Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "#004dcf",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "Platform"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 96,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2012-09-19T20:42:08.999Z",
+          "startTime": "2012-09-19T20:40:44.105Z",
+          "assets": [
+            "/home/alexc/videos/Cheyenne/EO-IR/assets/Cheyenne.ts"
+          ]
+        }
+      ],
+      "rating": 2,
+      "tags": [
+        "Test"
+      ],
+      "sortOrder": 2000
+    }
+]

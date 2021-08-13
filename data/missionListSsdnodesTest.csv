@@ -1,2 +1,2 @@
-Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
-,TruckTest,ESRI,"test,ESRI,Truck",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Truck.ts
+Mission._id,Mission.name,Mission.description,Mission.sortOrder,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.assets
+,TruckTest,ESRI,,"test,ESRI,Truck",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Truck.ts

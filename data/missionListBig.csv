@@ -1,36 +1,36 @@
-Mission._id,Mission.name,Mission.description,Mission.tags,Mission.country_code,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
-,Truck,ESRI,"test,ESRI,Truck",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Truck.ts
-,ArcVideo,ESRI,"test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/ArcVideo_clip.ts
-,Video_Clip_1,ESRI,"flight,test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_1.ts
-,Video_Clip_2,ESRI,"flight,test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_2.ts
-,Cheyenne,ESRI,"flight,test,ESRI,Cheyenne",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne.ts
-,Cheyenne_Handoff,ESRI,"flight,test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne_Handoff.ts
-,CheyenneVAhospital.ts,ESRI,"flight,test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/CheyenneVAhospital.ts
-,Italy1,Italy,Italy,IT,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Italy/Luca/Luca-6M.ts
-,DV3_171350Z,Bawn,"flight,test,Bawn",AU,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/Bawn/DV3_171350Z.ts
-,Austria-Piesendorf,Austria,Austria,AT,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Austria/Austria-Piesendorf-AVC-720P_3M.ts
-,DeadSea1,DeadSea,"Israel, Dead Sea",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/DeadSea/DeadSea-1-720p-3M.ts
-,DeadSea2,DeadSea,"Israel, Dead Sea",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/DeadSea/May/DeadSea-2-1080p-6M-a.ts
-,Ovdat,Southern Israel,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_Ovdat_web.ts
-,Tzukim,Southern Israel,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_Tzukim.ts
-,Herzelia1,Central Israel,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-1-1080p-6M.ts
-,Herzelia2,Central Israel,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-2-1080p-6M.ts
-,Herzelia4,Central Israel,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-4-1080p-6M.ts
-,Herzelia6,Central Israel,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-6-1080p-6M.ts
-,Ashdod1,Ashdod 1,"Israel, Ashdod",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ashdod/Ashdod-1-720p-3M.ts
-,Ashdod2,Ashdod 2,"Israel, Ashdod",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ashdod/Ashdod-2-720p-3M.ts
-,Arava1,Arava 1,"Israel, Arava",IL,Demo,DJI Mavic,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Arava/arava-1-720p-3M.ts
-,Ruhama1,Ruhama 1,"Israel, Ruhama",IL,Demo,DJI Mavic,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_AUDIO_Ruhama1.ts
-,TelAvivBeach,TelAviv beach,"Israel, Tel Aviv, beach",IL,Demo,DJI Mavic,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/TelAviv/Tel-Aviv-beach-6M-a.ts
-,Eilat1,Eilat beach,"Israel, Eilat, Red sea, beach",IL,Demo,DJI Mavic,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/eilat1_6M_a.ts
-,Herzelia1,Herzelia,"Israel, Herzelia",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-1-720p-3M.ts
-,CAE_2014_03_15_0_001,CAE,"CAE",FR,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CAE/CAE_2014_03_15_0_001.ts
-,CAE_2014_03_15_0_003,CAE,"CAE",FR,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CAE/CAE_2014_03_15_0_003.ts
-,Inlet_area_St_Lucie_River,CSA,"test,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/Inlet_area_St_Lucie_River_avc.ts
-,High_altitude_St_Lucie_inlet,CSA,"test,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/High_altitude_St_Lucie_inlet_avc.ts
-,Jupiter_Isl_Beach_North_to_South,CSA,"Jupiter,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/Jupiter_Isl_Beach_North_to_South_avc.ts
-,Jupiter_Isl_Beach_South_to_North,CSA,"Jupiter,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/Jupiter_Isl_Beach_South_to_North_avc.ts
-,Locks_to_St_Lucie_inlet,CSA,"Lucie,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/Locks_to_St_Lucie_inlet_avc.ts
-,sunken_boat,CSA,"sunken,boat,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/sunken_boat_avc.ts
-,ManateesNearSandbar,CSA,"Manatees,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/ManateesNearSandbar_avc.ts
-,SharksOfBathtubBeach,CSA,"sharks,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/SharksOfBathtubBeach_avc.ts
+Mission._id,Mission.name,Mission.description,Mission.sortOrder,Mission.tags,Mission.country_code,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.assets
+,Truck,ESRI,1000,"test,ESRI,Truck",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Truck.ts
+,ArcVideo,ESRI,1000,"test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/ArcVideo_clip.ts
+,Video_Clip_1,ESRI,1000,"flight,test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_1.ts
+,Video_Clip_2,ESRI,1000,"flight,test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_2.ts
+,Cheyenne,ESRI,1000,"flight,test,ESRI,Cheyenne",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne.ts
+,Cheyenne_Handoff,ESRI,1000,"flight,test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne_Handoff.ts
+,CheyenneVAhospital,ESRI,1000,"flight,test,ESRI",US,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/CheyenneVAhospital.ts
+,Italy1,Italy,1000,Italy,IT,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Italy/Luca/Luca-6M.ts
+,DV3_171350Z,Bawn,1000,"flight,test,Bawn",AU,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/Bawn/DV3_171350Z.ts
+,Austria-Piesendorf,Austria,1000,Austria,AT,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Austria/Austria-Piesendorf-AVC-720P_3M.ts
+,DeadSea1,DeadSea,1000,"Israel, Dead Sea",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/DeadSea/DeadSea-1-720p-3M.ts
+,DeadSea2,DeadSea,1000,"Israel, Dead Sea",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/DeadSea/May/DeadSea-2-1080p-6M-a.ts
+,Ovdat,Southern Israel,1000,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_Ovdat_web.ts
+,Tzukim,Southern Israel,1000,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_Tzukim.ts
+,Herzelia1,Central Israel,1000,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-1-1080p-6M.ts
+,Herzelia2,Central Israel,1000,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-2-1080p-6M.ts
+,Herzelia4,Central Israel,1000,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-4-1080p-6M.ts
+,Herzelia6,Central Israel,1000,Israel,IL,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-6-1080p-6M.ts
+,Ashdod1,Ashdod 1,1000,"Israel, Ashdod",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ashdod/Ashdod-1-720p-3M.ts
+,Ashdod2,Ashdod 2,1000,"Israel, Ashdod",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ashdod/Ashdod-2-720p-3M.ts
+,Arava1,Arava 1,1000,"Israel, Arava",IL,Demo,DJI Mavic,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Arava/arava-1-720p-3M.ts
+,Ruhama1,Ruhama 1,1000,"Israel, Ruhama",IL,Demo,DJI Mavic,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_AUDIO_Ruhama1.ts
+,TelAvivBeach,TelAviv beach,1000,"Israel, Tel Aviv, beach",IL,Demo,DJI Mavic,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/TelAviv/Tel-Aviv-beach-6M-a.ts
+,Eilat1,Eilat beach,1000,"Israel, Eilat, Red sea, beach",IL,Demo,DJI Mavic,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/eilat1_6M_a.ts
+,Herzelia1,Herzelia,1000,"Israel, Herzelia",IL,Demo,DJI Mavic Mini,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-1-720p-3M.ts
+,CAE_2014_03_15_0_001,CAE,1000,"CAE",FR,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CAE/CAE_2014_03_15_0_001.ts
+,CAE_2014_03_15_0_003,CAE,1000,"CAE",FR,Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CAE/CAE_2014_03_15_0_003.ts
+,Inlet_area_St_Lucie_River,CSA,1000,"test,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/Inlet_area_St_Lucie_River_avc.ts
+,High_altitude_St_Lucie_inlet,CSA,1000,"test,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/High_altitude_St_Lucie_inlet_avc.ts
+,Jupiter_Isl_Beach_North_to_South,CSA,1000,"Jupiter,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/Jupiter_Isl_Beach_North_to_South_avc.ts
+,Jupiter_Isl_Beach_South_to_North,CSA,1000,"Jupiter,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/Jupiter_Isl_Beach_South_to_North_avc.ts
+,Locks_to_St_Lucie_inlet,CSA,1000,"Lucie,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/Locks_to_St_Lucie_inlet_avc.ts
+,sunken_boat,CSA,1000,"sunken,boat,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/sunken_boat_avc.ts
+,ManateesNearSandbar,CSA,1000,"Manatees,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/ManateesNearSandbar_avc.ts
+,SharksOfBathtubBeach,CSA,1000,"sharks,CSA",US,Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/CSA/Processed/SharksOfBathtubBeach_avc.ts
