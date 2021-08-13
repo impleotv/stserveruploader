@@ -1,4 +1,4 @@
-Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
-,TestMission,Test Mission,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200, ./upload/ArcGIS/Truck.ts
-,3t,Test Mission,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200, ./upload/3t.ts
-,2t,Test Mission,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200, ./upload/2t.ts
+Mission._id,Mission.name,Mission.description,Mission.sortOrder,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.assets
+,TestMission,Test Mission,100,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200, /home/alexc/Movies/ArcGIS/Truck.ts
+,3t,Test Mission,200,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200, /home/alexc/Movies/3t.ts
+,2t,Test Mission,300,"flight,test","Demo, Group1",Heron,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200, /home/alexc/Movies/2t.ts

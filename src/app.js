@@ -392,15 +392,17 @@ async function uploadMission(mission, cb) {
             const sensors = mission.sensors;
             if (sensors && Array.isArray(sensors) && sensors.length > 0) {
                 sensors.forEach(async s => {
-
-                    if (s.files && s.files.length > 0) {
-                        s.files = splitToArray(s.files);
+                    
+                    let files = s.assets ? s.assets : s.files; 
+                    
+                    if(!Array.isArray(files) && files && files.length > 0 ) {
+                        files = splitToArray(files);
                     }
 
                     // Check if the file exists. First, check the local machine and upload, if found. If not, just pass the path, so the server would try to locate it at its end.
                     const form_data = new FormData();
 
-                    s.files.forEach(f => {
+                    files.forEach(f => {
                         if (fs.existsSync(f)) {
                             form_data.append("files", fs.createReadStream(f));
                         }
@@ -597,7 +599,7 @@ function parseArguments() {
         parser.add_argument('-s', '--server', { metavar: '', help: 'Server url' });
         parser.add_argument('-u', '--user', { metavar: '', help: 'User name' });
         parser.add_argument('-p', '--password', { metavar: '', help: 'Password' });
-        parser.add_argument('--printUsage', { metavar: '', defaultValue: 'false', help: 'Print args description (true/false)' });
+        parser.add_argument('--printUsage', { metavar: '', default: 'false', help: 'Print args description (true/false)' });
         parser.add_argument('-v', '--version', { metavar: '', help: 'Version' });
 
         argv = parser.parse_args();

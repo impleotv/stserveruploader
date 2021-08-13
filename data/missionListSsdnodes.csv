@@ -1,39 +1,39 @@
-Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
-,Truck,ESRI,"test,ESRI,Truck",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Truck.ts
-,ArcVideo,ESRI,"test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200./upload/ArcGIS/ArcVideo_clip.ts
-,Video_Clip_1,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Video_Clip_1.ts
-,Video_Clip_2,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Video_Clip_2.ts
-,Cheyenne,ESRI,"flight,test,ESRI,Cheyenne",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Cheyenne.ts
-,Cheyenne_Handoff,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Cheyenne_Handoff.ts
-,CheyenneVAhospital.ts,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/CheyenneVAhospital.ts
-,Ruhama1,Southern Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Ellen/6M_RuhamaAACRemux.ts
-,DeadSea1,Southern Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/DeadSea/DeadSea-1-1080p-6M-audio.ts
-,Ovdat,Southern Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Ellen/6M_Ovdat_web.ts
-,Tzukim,Southern Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Ellen/6M_Tzukim.ts
-,Herzelia1,Central Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Herzelia/Herzelia-1-1080p-6M.ts
-,Herzelia2,Central Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Herzelia/Herzelia-2-1080p-6M.ts
-,Herzelia4,Central Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Herzelia/Herzelia-4-1080p-6M.ts
-,Herzelia6,Central Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Herzelia/Herzelia-6-1080p-6M.ts
-,Ashdod1,Southern Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Ashdod/Ashdod-1-1080p-6M.ts
-,Italy1,Italy,Italy,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Italy/Luca/Luca-6M.ts
-,Austria-Piesendorf,Austria,Austria,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Austria/Austria-Piesendorf-AVC_1080_10M.ts
-,DV3_171350Z,Bawn,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_171350Z.ts
-,DV3_140612Z,Bawn,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_140612Z_001.ts
-,DV3_142252Z,Bawn,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_142252Z.ts
-,DV3_161649Z,Bawn,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_161649Z.ts
-,Inlet_area_St_Lucie_River,CSA,"test,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Inlet_area_St_Lucie_River_avc.ts
-,High_altitude_St_Lucie_inlet,CSA,"test,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/High_altitude_St_Lucie_inlet_avc.ts
-,Jupiter_Isl_Beach_North_to_South,CSA,"Jupiter,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Jupiter_Isl_Beach_North_to_South_avc.ts
-,Jupiter_Isl_Beach_South_to_North,CSA,"Jupiter,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Jupiter_Isl_Beach_South_to_North_avc.ts
-,Locks_to_St_Lucie_inlet,CSA,"Lucie,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Locks_to_St_Lucie_inlet_avc.ts
-,sunken_boat,CSA,"sunken,boat,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/sunken_boat_avc.ts
-,ManateesNearSandbar,CSA,"Manatees,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/ManateesNearSandbar_avc.ts
-,SharksOfBathtubBeach,CSA,"sharks,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/SharksOfBathtubBeach_avc.ts
-,CSA-in-Action,CSA,"Action,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/CSA-in-Action_avc.ts
-,MCSO-2016-07-14-151204,CSA,"MCSO,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/MCSO-2016-07-14-151204_avc.ts
-,MCSO-2016-07-15-164640,CSA,"MCSO,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/MCSO-2016-07-15-164640_avc.ts
-,GOPR1989_TT_Beach,CSA,"beach,CSA",Demo,-,Quadcopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/GOPR1989_TT_Beach_avc.ts
-,GOPR1998_TT_Valley,CSA,"valley,CSA",Demo,-,Quadcopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/GOPR1998_TT_Valley_avc.ts
-,GOPR7112,CSA,"beach,CSA",Demo,-,Quadcopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/GOPR7112_avc.ts
-,CAE_2014_03_15_0_001,CAE,"CAE",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CAE/CAE_2014_03_15_0_001.ts
-,CAE_2014_03_15_0_003,CAE,"CAE",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CAE/CAE_2014_03_15_0_003.ts
+Mission._id,Mission.name,Mission.description,Mission.sortOrder,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.assets
+,Truck,ESRI,,"test,ESRI,Truck",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Truck.ts
+,ArcVideo,ESRI,,"test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200./upload/ArcGIS/ArcVideo_clip.ts
+,Video_Clip_1,ESRI,,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Video_Clip_1.ts
+,Video_Clip_2,ESRI,,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Video_Clip_2.ts
+,Cheyenne,ESRI,,"flight,test,ESRI,Cheyenne",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Cheyenne.ts
+,Cheyenne_Handoff,ESRI,,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/Cheyenne_Handoff.ts
+,CheyenneVAhospital,ESRI,,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/ArcGIS/CheyenneVAhospital.ts
+,Ruhama1,Southern Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Ellen/6M_RuhamaAACRemux.ts
+,DeadSea1,Southern Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/DeadSea/DeadSea-1-1080p-6M-audio.ts
+,Ovdat,Southern Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Ellen/6M_Ovdat_web.ts
+,Tzukim,Southern Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Ellen/6M_Tzukim.ts
+,Herzelia1,Central Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Herzelia/Herzelia-1-1080p-6M.ts
+,Herzelia2,Central Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Herzelia/Herzelia-2-1080p-6M.ts
+,Herzelia4,Central Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Herzelia/Herzelia-4-1080p-6M.ts
+,Herzelia6,Central Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Herzelia/Herzelia-6-1080p-6M.ts
+,Ashdod1,Southern Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Israel/Ashdod/Ashdod-1-1080p-6M.ts
+,Italy1,Italy,,Italy,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Italy/Luca/Luca-6M.ts
+,Austria-Piesendorf,Austria,,Austria,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,./upload/Impleo/Austria/Austria-Piesendorf-AVC_1080_10M.ts
+,DV3_171350Z,Bawn,,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_171350Z.ts
+,DV3_140612Z,Bawn,,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_140612Z_001.ts
+,DV3_142252Z,Bawn,,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_142252Z.ts
+,DV3_161649Z,Bawn,,"flight,test,Bawn",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/Bawn/DV3_161649Z.ts
+,Inlet_area_St_Lucie_River,CSA,,"test,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Inlet_area_St_Lucie_River_avc.ts
+,High_altitude_St_Lucie_inlet,CSA,,"test,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/High_altitude_St_Lucie_inlet_avc.ts
+,Jupiter_Isl_Beach_North_to_South,CSA,,"Jupiter,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Jupiter_Isl_Beach_North_to_South_avc.ts
+,Jupiter_Isl_Beach_South_to_North,CSA,,"Jupiter,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Jupiter_Isl_Beach_South_to_North_avc.ts
+,Locks_to_St_Lucie_inlet,CSA,,"Lucie,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/Locks_to_St_Lucie_inlet_avc.ts
+,sunken_boat,CSA,,"sunken,boat,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/sunken_boat_avc.ts
+,ManateesNearSandbar,CSA,,"Manatees,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/ManateesNearSandbar_avc.ts
+,SharksOfBathtubBeach,CSA,,"sharks,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/SharksOfBathtubBeach_avc.ts
+,CSA-in-Action,CSA,,"Action,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/CSA-in-Action_avc.ts
+,MCSO-2016-07-14-151204,CSA,,"MCSO,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/MCSO-2016-07-14-151204_avc.ts
+,MCSO-2016-07-15-164640,CSA,,"MCSO,CSA",Demo,-,Helicopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/MCSO-2016-07-15-164640_avc.ts
+,GOPR1989_TT_Beach,CSA,,"beach,CSA",Demo,-,Quadcopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/GOPR1989_TT_Beach_avc.ts
+,GOPR1998_TT_Valley,CSA,,"valley,CSA",Demo,-,Quadcopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/GOPR1998_TT_Valley_avc.ts
+,GOPR7112,CSA,,"beach,CSA",Demo,-,Quadcopter,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CSA/GOPR7112_avc.ts
+,CAE_2014_03_15_0_001,CAE,,"CAE",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CAE/CAE_2014_03_15_0_001.ts
+,CAE_2014_03_15_0_003,CAE,,"CAE",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,./upload/CAE/CAE_2014_03_15_0_003.ts

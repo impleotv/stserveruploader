@@ -1,11 +1,11 @@
-Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
-,ArcVideo,ESRI,"test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/ArcVideo_clip.ts
-,Video_Clip_1,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_1.ts
-,Video_Clip_2,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_2.ts
-,Cheyenne,ESRI,"flight,test,ESRI,Cheyenne",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne.ts
-,Cheyenne_Handoff,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne_Handoff.ts
-,CheyenneVAhospital.ts,ESRI,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/CheyenneVAhospital.ts
-,Ovdat,Southern Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_Ovdat_web.ts
-,Ruhama1,Southern Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_RuhamaAACRemux.ts
-,TelAviv,TelAviv 1,"Israel, Tel Aviv",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/TelAviv/Tel-Aviv-6M.ts
-,Herzelia6,Central Israel,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-6-1080p-6M.ts
+Mission._id,Mission.name,Mission.description,Mission.sortOrder,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.assets
+,ArcVideo,ESRI,,"test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/ArcVideo_clip.ts
+,Video_Clip_1,ESRI,,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_1.ts
+,Video_Clip_2,ESRI,,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Video_Clip_2.ts
+,Cheyenne,ESRI,,"flight,test,ESRI,Cheyenne",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne.ts
+,Cheyenne_Handoff,ESRI,,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/Cheyenne_Handoff.ts
+,CheyenneVAhospital,ESRI,,"flight,test,ESRI",Demo,-,Plane,UNCLASSIFIED,EO/IR,Main EO/IR,video,camera,200,D:/Movie/ArcGIS/CheyenneVAhospital.ts
+,Ovdat,Southern Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_Ovdat_web.ts
+,Ruhama1,Southern Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_RuhamaAACRemux.ts
+,TelAviv,TelAviv 1,,"Israel, Tel Aviv",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/TelAviv/Tel-Aviv-6M.ts
+,Herzelia6,Central Israel,,Israel,Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Herzelia/Herzelia-6-1080p-6M.ts

@@ -1,5 +1,5 @@
-Mission._id,Mission.name,Mission.description,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
-,TelAviv1,TelAviv 1,"Israel, Tel Aviv",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_TelAviv1.ts
-,TelAviv2,TelAviv 2,"Israel, Tel Aviv",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_TelAviv2.ts
-,TelAviv3,TelAviv 3,"Israel, Tel Aviv",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_TelAviv3.ts
+Mission._id,Mission.name,Mission.description,Mission.sortOrder,Mission.tags,Mission.usergroups,Mission.platform.name,Mission.platform.type,Mission.securityClassification,Mission.sensors.0.name,Mission.sensors.0.description,Mission.sensors.0.type,Mission.sensors.0.tags,Mission.sensors.0.sampling,Mission.sensors.0.files
+,TelAviv1,TelAviv 1,,"Israel, Tel Aviv",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_TelAviv1.ts
+,TelAviv2,TelAviv 2,,"Israel, Tel Aviv",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_TelAviv2.ts
+,TelAviv3,TelAviv 3,,"Israel, Tel Aviv",Demo,-,Quadcopter,UNCLASSIFIED,EO,Main EO,video,camera,200,D:/Movie/Impleo/Israel/Ellen/6M_TelAviv3.ts
 
