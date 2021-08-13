@@ -1,7 +1,8 @@
 
 Change Log
 ==========
-
+### Ver. 1.0.4
+- Modify .csv and .json format
 ### Ver. 1.0.3
 - Dependency update
 - Add socket.io

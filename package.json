@@ -1,6 +1,6 @@
 {
   "name": "stserveruploader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "StServer mission uploader",
   "main": "app.js",
   "scripts": {
