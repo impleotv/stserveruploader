@@ -1,0 +1,90 @@
+[
+    {
+      "name": "Truck",
+      "description": "Test",
+      "thumbnail": "Truck-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-10-10T09:22:55.186Z",
+      "startTime": "2012-09-19T20:50:26.484Z",
+      "endTime": "2012-09-19T20:52:54.296Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "name": "Platform",
+        "type": "Plane",
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "#004dcf",
+          "weight": 2
+        }
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "name": "EO-IR",
+          "description": "Sensor",
+          "type": "video",
+          "views": 6,
+          "tags": [],
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1080
+          },
+          "endTime": "2012-09-19T20:52:54.296Z",
+          "startTime": "2012-09-19T20:50:26.484Z",
+          "assets": [
+            "/home/alexc/videos/Truck/EO-IR/assets/Truck.ts"
+          ]
+        },
+        {
+          "name": "EO-IR",
+          "description": "Sensor",
+          "type": "video",
+          "views": 6,
+          "tags": [],
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1080
+          },
+          "endTime": "2012-09-19T20:52:54.296Z",
+          "startTime": "2012-09-19T20:50:26.484Z",
+          "assets": [
+            "/home/alexc/videos/Truck/EO-IR/assets/Truck.ts"
+          ]
+        }
+      ],
+      "bookmarks": [
+        {
+          "title": "BM1",
+          "text": "BM1Text",
+          "tags": [],
+          "author": "alexc",
+          "editor": "alexc",
+          "startTime": "2012-09-19T20:50:58.925Z",
+          "position": 31.72,
+          "color": "blue"
+        },
+        {
+          "missionName": "Truck",
+          "sensorName": "EO-IR",
+          "title": "BM2",
+          "text": "BM2",
+          "tags": [],
+          "author": "alexc",
+          "editor": "alexc",
+          "startTime": "2012-09-19T20:51:35.865Z",
+          "position": 68.4,
+          "color": "blue"
+        }
+      ],
+      "rating": 2,
+      "tags": [
+        "Test"
+      ],
+      "sortOrder": 2000
+    }
+  ]

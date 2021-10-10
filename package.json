@@ -1,13 +1,13 @@
 {
   "name": "stserveruploader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "StServer mission uploader",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d distr --presets es2015",
-    "pkgWin": "pkg ./distr/app.js --targets node12-win-x64  --output stserveruploader.exe",
-    "pkgLinux": "pkg ./distr/app.js --targets node12-linux-x64  --output stserveruploader.run",
+    "pkgWin": "pkg ./distr/app.js --targets node14-win-x64  --output stserveruploader.exe",
+    "pkgLinux": "pkg ./distr/app.js --targets node14-linux-x64  --output stserveruploader.run",
     "pkgAll": "npm run pkgWin && npm run pkgLinux"
   },
   "type": "module",
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/impleotv/stserveruploader#readme",
   "dependencies": {
     "argparse": "^2.0.1",
-    "axios": "^0.21.1",
+    "axios": "^0.22.0",
     "cli-progress": "^3.9.0",
     "colors": "^1.4.0",
     "csvtojson": "^2.0.10",
