@@ -1,0 +1,3106 @@
+[
+    {
+      "name": "Truck",
+      "description": "ESRI",
+      "thumbnail": "Truck-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:30:54.527Z",
+      "startTime": "2012-09-19T20:50:26.484Z",
+      "endTime": "2012-09-19T20:52:54.296Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 1688,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2012-09-19T20:52:54.296Z",
+          "startTime": "2012-09-19T20:50:26.484Z",
+          "assets": [
+            "/home/alexc/movies/Truck/EO-IR/assets/Truck.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [
+        "truck",
+        "road"
+      ],
+      "sortOrder": 5200
+    },
+    {
+      "name": "TelAviv-beach",
+      "description": "Central Israel",
+      "thumbnail": "Tel-Aviv-beach-6M-a-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:30:56.180Z",
+      "startTime": "2020-02-05T08:15:30.100Z",
+      "endTime": "2020-02-05T08:47:29.200Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 313,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-02-05T08:47:29.200Z",
+          "startTime": "2020-02-05T08:15:30.100Z",
+          "assets": [
+            "/home/alexc/movies/TelAviv-beach/EO-IR/assets/Tel-Aviv-beach-6M-a.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [
+        "sea",
+        "beach",
+        "Tel Aviv"
+      ],
+      "sortOrder": 5110
+    },
+    {
+      "name": "DeadSea1",
+      "description": "Southern Israel",
+      "thumbnail": "DeadSea-1-1080p-6M-audio-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:35:09.542Z",
+      "startTime": "2019-12-07T08:28:45.500Z",
+      "endTime": "2019-12-07T08:34:41.000Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 171,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2019-12-07T08:34:41.000Z",
+          "startTime": "2019-12-07T08:28:45.500Z",
+          "assets": [
+            "/home/alexc/movies/DeadSea1/EO-IR/assets/DeadSea-1-1080p-6M-audio.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [
+        "dead sea"
+      ],
+      "sortOrder": 5100
+    },
+    {
+      "name": "Italy1",
+      "description": "Italy",
+      "thumbnail": "Luca-6M-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:35:12.041Z",
+      "startTime": "2020-03-15T13:38:47.500Z",
+      "endTime": "2020-03-15T13:52:35.200Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "-"
+      },
+      "country_name": "Italy",
+      "country_code": "IT",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 257,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-03-15T13:52:35.200Z",
+          "startTime": "2020-03-15T13:38:47.500Z",
+          "assets": [
+            "/home/alexc/movies/Italy1/EO-IR/assets/Luca-6M.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": 5040
+    },
+    {
+      "name": "Eilat1",
+      "description": "Southern Israel",
+      "thumbnail": "eilat1_6M_a-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:35:15.925Z",
+      "startTime": "2020-07-18T00:06:04.000Z",
+      "endTime": "2020-07-18T00:14:48.200Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 163,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-07-18T00:14:48.200Z",
+          "startTime": "2020-07-18T00:06:04.000Z",
+          "assets": [
+            "/home/alexc/movies/Eilat1/EO-IR/assets/eilat1_6M_a.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": 5000
+    },
+    {
+      "name": "Austria-Piesendorf-040",
+      "description": "Austria flight",
+      "thumbnail": "Austria-Piesendorf-1080_6M_A_Sync-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:22.667Z",
+      "startTime": "2020-01-24T06:38:17.500Z",
+      "endTime": "2020-01-24T06:44:07.400Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "#004dcf",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Austria",
+      "country_code": "AT",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 45,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-01-24T06:44:07.400Z",
+          "startTime": "2020-01-24T06:38:17.500Z",
+          "assets": [
+            "/home/alexc/movies/Austria-Piesendorf-040/EO-IR/assets/Austria-Piesendorf-1080_6M_A_Sync.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": 4500
+    },
+    {
+      "name": "Austria-Walchen-039",
+      "description": "Austria flight",
+      "thumbnail": "Austria-Walchen-039-1080-A-Sync-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-14T09:42:06.186Z",
+      "startTime": "2020-01-23T06:17:20.400Z",
+      "endTime": "2020-01-23T06:24:23.400Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "#004dcf",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Austria",
+      "country_code": "AT",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 15,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 35,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-01-23T06:24:23.400Z",
+          "startTime": "2020-01-23T06:17:20.400Z",
+          "assets": [
+            "/home/alexc/movies/Austria-Walchen-039/EO-IR/assets/Austria-Walchen-039-1080-A-Sync.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": 4500
+    },
+    {
+      "name": "Apollonia1",
+      "description": "Central Israel",
+      "thumbnail": "Apollonia109-110-1080-A-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:29.345Z",
+      "startTime": "2021-02-13T09:31:15.000Z",
+      "endTime": "2021-02-13T09:50:18.500Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 38,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2021-02-13T09:50:18.500Z",
+          "startTime": "2021-02-13T09:31:15.000Z",
+          "assets": [
+            "/home/alexc/movies/Apollonia1/EO-IR/assets/Apollonia109-110-1080-A.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": 2110
+    },
+    {
+      "name": "Apollonia2",
+      "description": "Central Israel",
+      "thumbnail": "Apollonia111-112-1080-A-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:25.056Z",
+      "startTime": "2021-02-13T10:33:53.000Z",
+      "endTime": "2021-02-13T10:52:54.800Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 36,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2021-02-13T10:52:54.800Z",
+          "startTime": "2021-02-13T10:33:53.000Z",
+          "assets": [
+            "/home/alexc/movies/Apollonia2/EO-IR/assets/Apollonia111-112-1080-A.ts"
+          ]
+        }
+      ],
+      "rating": 4,
+      "tags": [],
+      "sortOrder": 2110
+    },
+    {
+      "name": "DeadSea-105",
+      "description": "Southern Israel",
+      "thumbnail": "DeadSea-105-A-SYNC-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:33.548Z",
+      "startTime": "2020-12-19T06:42:50.400Z",
+      "endTime": "2020-12-19T06:50:10.400Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 57,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-12-19T06:50:10.400Z",
+          "startTime": "2020-12-19T06:42:50.400Z",
+          "assets": [
+            "/home/alexc/movies/DeadSea-105/EO-IR/assets/DeadSea-105-A-SYNC.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [
+        "dead sea"
+      ],
+      "sortOrder": 2001
+    },
+    {
+      "name": "DeadSea98",
+      "description": "Southern Israel",
+      "thumbnail": "DeadSea98-1080p-5M-A-Sync-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:35.854Z",
+      "startTime": "2020-12-12T09:56:16.500Z",
+      "endTime": "2020-12-12T10:09:55.100Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 39,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-12-12T10:09:55.100Z",
+          "startTime": "2020-12-12T09:56:16.500Z",
+          "assets": [
+            "/home/alexc/movies/DeadSea98/EO-IR/assets/DeadSea98-1080p-5M-A-Sync.ts"
+          ]
+        }
+      ],
+      "rating": 4,
+      "tags": [],
+      "sortOrder": 2000
+    },
+    {
+      "name": "Seychelles-165",
+      "description": "Seychelles",
+      "thumbnail": "Seychelles-165_KLV-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T09:16:34.009Z",
+      "startTime": "2021-05-23T10:48:44.500Z",
+      "endTime": "2021-05-23T11:00:42.800Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Seychelles",
+      "country_code": "SC",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 15,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 40,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2021-05-23T11:00:42.800Z",
+          "startTime": "2021-05-23T10:48:44.500Z",
+          "assets": [
+            "/home/alexc/movies/Seychelles-165/EO-IR/assets/Seychelles-165_KLV.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [
+        "Seychells",
+        "beach"
+      ],
+      "sortOrder": 1000
+    },
+    {
+      "name": "Locks_to_St_Lucie_inlet",
+      "description": "CSA",
+      "thumbnail": "Locks_to_St_Lucie_inlet_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:53.008Z",
+      "startTime": "2016-02-11T18:53:26.926Z",
+      "endTime": "2016-02-11T19:08:13.034Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 48,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2016-02-11T19:08:13.034Z",
+          "startTime": "2016-02-11T18:53:26.926Z",
+          "assets": [
+            "/home/alexc/movies/Locks_to_St_Lucie_inlet/EO-IR/assets/Locks_to_St_Lucie_inlet_avc.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": 1000
+    },
+    {
+      "name": "DeadSeaFlooding",
+      "description": "Southern Israel",
+      "thumbnail": "DeadSeaFlooding-1080p-5M-A-Sync-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:51.274Z",
+      "startTime": "2020-12-05T12:07:10.000Z",
+      "endTime": "2020-12-05T12:10:44.900Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 21,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-12-05T12:10:44.900Z",
+          "startTime": "2020-12-05T12:07:10.000Z",
+          "assets": [
+            "/home/alexc/movies/DeadSeaFlooding/EO-IR/assets/DeadSeaFlooding-1080p-5M-A-Sync.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [
+        "flooding",
+        "flood",
+        "dead sea"
+      ],
+      "sortOrder": 1000
+    },
+    {
+      "name": "Seychelles-163",
+      "description": "Seychelles",
+      "thumbnail": "Seychelles-163_KLV-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:47.967Z",
+      "startTime": "2021-05-23T10:12:44.000Z",
+      "endTime": "2021-05-23T10:26:22.700Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Seychelles",
+      "country_code": "SC",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 18,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2021-05-23T10:26:22.700Z",
+          "startTime": "2021-05-23T10:12:44.000Z",
+          "assets": [
+            "/home/alexc/movies/Seychelles-163/EO-IR/assets/Seychelles-163_KLV.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": 1000
+    },
+    {
+      "name": "Seychelles-183",
+      "description": "Seychelles",
+      "thumbnail": "Seychelles-183_KLV-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:44.754Z",
+      "startTime": "2021-05-24T03:26:32.000Z",
+      "endTime": "2021-05-24T03:39:14.400Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Seychelles",
+      "country_code": "SC",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2021-05-24T03:39:14.400Z",
+          "startTime": "2021-05-24T03:26:32.000Z",
+          "assets": [
+            "/home/alexc/movies/Seychelles-183/EO-IR/assets/Seychelles-183_KLV.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": 1000
+    },
+    {
+      "name": "Seychelles-186",
+      "description": "Seychelles",
+      "thumbnail": "Seychelles-186_KLV-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:42.660Z",
+      "startTime": "2021-05-24T07:37:28.800Z",
+      "endTime": "2021-05-24T07:42:41.700Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Seychelles",
+      "country_code": "SC",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2021-05-24T07:42:41.700Z",
+          "startTime": "2021-05-24T07:37:28.800Z",
+          "assets": [
+            "/home/alexc/movies/Seychelles-186/EO-IR/assets/Seychelles-186_KLV.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": 1000
+    },
+    {
+      "name": "MizpeModiin-93",
+      "description": "Central Israel",
+      "thumbnail": "MizpeModdin-93-1080p-5M-A-Sync-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:44:57.859Z",
+      "startTime": "2020-12-04T09:52:25.000Z",
+      "endTime": "2020-12-04T10:01:35.500Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 23,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-12-04T10:01:35.500Z",
+          "startTime": "2020-12-04T09:52:25.000Z",
+          "assets": [
+            "/home/alexc/movies/MizpeModiin-93/EO-IR/assets/MizpeModdin-93-1080p-5M-A-Sync.ts"
+          ]
+        }
+      ],
+      "rating": 4,
+      "tags": [],
+      "sortOrder": 998
+    },
+    {
+      "name": "DeadSea-108",
+      "description": "Southern Israel",
+      "thumbnail": "DeadSea-108-SYNC-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:02.958Z",
+      "startTime": "2020-12-26T12:04:28.000Z",
+      "endTime": "2020-12-26T12:17:02.100Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "Platform"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 21,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-12-26T12:17:02.100Z",
+          "startTime": "2020-12-26T12:04:28.000Z",
+          "assets": [
+            "/home/alexc/movies/DeadSea-108/EO-IR/assets/DeadSea-108-SYNC.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": 800
+    },
+    {
+      "name": "JudeanDesert-107",
+      "description": "Southern Israel",
+      "thumbnail": "JudeanDesert-107-SYNC-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:00.518Z",
+      "startTime": "2020-12-26T06:14:55.000Z",
+      "endTime": "2020-12-26T06:22:25.800Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "Platform"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 20,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-12-26T06:22:25.800Z",
+          "startTime": "2020-12-26T06:14:55.000Z",
+          "assets": [
+            "/home/alexc/movies/JudeanDesert-107/EO-IR/assets/JudeanDesert-107-SYNC.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": 800
+    },
+    {
+      "name": "EinKerem-147",
+      "description": "Central Israel",
+      "thumbnail": "EinKerem-147-1080p-5M-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:06.957Z",
+      "startTime": "2021-03-27T05:50:45.000Z",
+      "endTime": "2021-03-27T05:57:31.400Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 8,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2021-03-27T05:57:31.400Z",
+          "startTime": "2021-03-27T05:50:45.000Z",
+          "assets": [
+            "/home/alexc/movies/EinKerem-147/EO-IR/assets/EinKerem-147-1080p-5M.ts"
+          ]
+        }
+      ],
+      "rating": 1,
+      "tags": [
+        "Ein Kerem"
+      ],
+      "sortOrder": 10
+    },
+    {
+      "name": "Buxton",
+      "description": "Buxton flight",
+      "thumbnail": "DJI_0037_1280-SYNC-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:09.283Z",
+      "startTime": "2020-02-22T19:51:52.500Z",
+      "endTime": "2020-02-22T19:54:06.600Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "#004dcf",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 29,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-02-22T19:54:06.600Z",
+          "startTime": "2020-02-22T19:51:52.500Z",
+          "assets": [
+            "/home/alexc/movies/Buxton/EO-IR/assets/DJI_0037_1280-SYNC.ts"
+          ]
+        }
+      ],
+      "rating": 2,
+      "tags": [],
+      "sortOrder": 1
+    },
+    {
+      "name": "ArcVideo",
+      "description": "ESRI",
+      "thumbnail": "ArcVideo_clip-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:47:09.923Z",
+      "startTime": "2012-07-09T17:27:33.517Z",
+      "endTime": "2012-07-09T17:28:46.092Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 36,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2012-07-09T17:28:46.092Z",
+          "startTime": "2012-07-09T17:27:33.517Z",
+          "assets": [
+            "/home/alexc/movies/ArcVideo/EO-IR/assets/ArcVideo_clip.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "DV3_171350Z",
+      "description": "Bawn",
+      "thumbnail": "DV3_171350Z-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:47:04.371Z",
+      "startTime": "2013-01-19T06:13:46.452Z",
+      "endTime": "2013-01-19T06:36:20.402Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "Australia",
+      "country_code": "AU",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 26,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2013-01-19T06:36:20.402Z",
+          "startTime": "2013-01-19T06:13:46.452Z",
+          "assets": [
+            "/home/alexc/movies/DV3_171350Z/EO-IR/assets/DV3_171350Z.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [
+        "Australia"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "Cheyenne",
+      "description": "ESRI",
+      "thumbnail": "Cheyenne-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:47:02.982Z",
+      "startTime": "2012-09-19T20:40:44.105Z",
+      "endTime": "2012-09-19T20:42:08.999Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 27,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2012-09-19T20:42:08.999Z",
+          "startTime": "2012-09-19T20:40:44.105Z",
+          "assets": [
+            "/home/alexc/movies/Cheyenne/EO-IR/assets/Cheyenne.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Cheyenne_Handoff",
+      "description": "ESRI",
+      "thumbnail": "Cheyenne_Handoff-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:47:01.578Z",
+      "startTime": "2012-09-19T20:32:31.147Z",
+      "endTime": "2012-09-19T20:34:24.293Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 19,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2012-09-19T20:34:24.293Z",
+          "startTime": "2012-09-19T20:32:31.147Z",
+          "assets": [
+            "/home/alexc/movies/Cheyenne_Handoff/EO-IR/assets/Cheyenne_Handoff.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Arava1",
+      "description": "Arava 1",
+      "thumbnail": "arava-1-1080p-6M-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:59.888Z",
+      "startTime": "2020-02-25T08:24:37.800Z",
+      "endTime": "2020-02-25T08:31:22.100Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 32,
+          "tags": [],
+          "name": "EO",
+          "description": "Main EO",
+          "endTime": "2020-02-25T08:31:22.100Z",
+          "startTime": "2020-02-25T08:24:37.800Z",
+          "assets": [
+            "/home/alexc/movies/Arava1/EO/assets/arava-1-1080p-6M.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [
+        "desert"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "TelAviv1",
+      "description": "TelAviv 1",
+      "thumbnail": "6M_TelAviv1-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:57.512Z",
+      "startTime": "2020-02-05T08:11:12.000Z",
+      "endTime": "2020-02-05T08:17:32.900Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 29,
+          "tags": [],
+          "name": "EO",
+          "description": "Main EO",
+          "endTime": "2020-02-05T08:17:32.900Z",
+          "startTime": "2020-02-05T08:11:12.000Z",
+          "assets": [
+            "/home/alexc/movies/TelAviv1/EO/assets/6M_TelAviv1.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [
+        "Tel Aviv",
+        "sea"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "TelAviv2",
+      "description": "TelAviv 2",
+      "thumbnail": "6M_TelAviv2-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:56.008Z",
+      "startTime": "2020-02-05T08:26:20.000Z",
+      "endTime": "2020-02-05T08:28:15.800Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "-"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 21,
+          "tags": [],
+          "name": "EO",
+          "description": "Main EO",
+          "endTime": "2020-02-05T08:28:15.800Z",
+          "startTime": "2020-02-05T08:26:20.000Z",
+          "assets": [
+            "/home/alexc/movies/TelAviv2/EO/assets/6M_TelAviv2.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [
+        "Tel Aviv"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "TelAviv3",
+      "description": "TelAviv 3",
+      "thumbnail": "6M_TelAviv3-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:54.596Z",
+      "startTime": "2020-02-05T08:43:22.000Z",
+      "endTime": "2020-02-05T08:44:50.900Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "-"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 25,
+          "tags": [],
+          "name": "EO",
+          "description": "Main EO",
+          "endTime": "2020-02-05T08:44:50.900Z",
+          "startTime": "2020-02-05T08:43:22.000Z",
+          "assets": [
+            "/home/alexc/movies/TelAviv3/EO/assets/6M_TelAviv3.ts"
+          ]
+        }
+      ],
+      "rating": 4,
+      "tags": [
+        "Tel Aviv"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "Video_Clip_1",
+      "description": "ESRI",
+      "thumbnail": "Video_Clip_1-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:53.045Z",
+      "startTime": "2012-09-19T20:48:26.345Z",
+      "endTime": "2012-09-19T20:50:59.745Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 19,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2012-09-19T20:50:59.745Z",
+          "startTime": "2012-09-19T20:48:26.345Z",
+          "assets": [
+            "/home/alexc/movies/Video_Clip_1/EO-IR/assets/Video_Clip_1.ts"
+          ]
+        }
+      ],
+      "rating": 4,
+      "tags": [
+        "road",
+        "truck"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "Video_Clip_2",
+      "description": "ESRI",
+      "thumbnail": "Video_Clip_2-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:51.591Z",
+      "startTime": "2012-09-19T20:59:42.058Z",
+      "endTime": "2012-09-19T21:01:46.066Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 20,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2012-09-19T21:01:46.066Z",
+          "startTime": "2012-09-19T20:59:42.058Z",
+          "assets": [
+            "/home/alexc/movies/Video_Clip_2/EO-IR/assets/Video_Clip_2.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "CheyenneVAhospital.ts",
+      "description": "ESRI",
+      "thumbnail": "CheyenneVAhospital-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:50.278Z",
+      "startTime": "2012-09-19T20:42:57.502Z",
+      "endTime": "2012-09-19T20:44:02.397Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 15,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2012-09-19T20:44:02.397Z",
+          "startTime": "2012-09-19T20:42:57.502Z",
+          "assets": [
+            "/home/alexc/movies/CheyenneVAhospital.ts/EO-IR/assets/CheyenneVAhospital.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "DV3_140612Z",
+      "description": "Bawn",
+      "thumbnail": "DV3_140612Z_001-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:47.172Z",
+      "startTime": "2012-10-03T04:06:00.215Z",
+      "endTime": "2012-10-03T04:15:00.558Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "Australia",
+      "country_code": "AU",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 19,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2012-10-03T04:15:00.558Z",
+          "startTime": "2012-10-03T04:06:00.215Z",
+          "assets": [
+            "/home/alexc/movies/DV3_140612Z/EO-IR/assets/DV3_140612Z_001.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [
+        "Australia"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "DV3_142252Z",
+      "description": "Bawn",
+      "thumbnail": "DV3_142252Z-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:45.325Z",
+      "startTime": "2012-10-03T04:22:39.910Z",
+      "endTime": "2012-10-03T04:26:05.804Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "Australia",
+      "country_code": "AU",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 15,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2012-10-03T04:26:05.804Z",
+          "startTime": "2012-10-03T04:22:39.910Z",
+          "assets": [
+            "/home/alexc/movies/DV3_142252Z/EO-IR/assets/DV3_142252Z.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "DV3_161649Z",
+      "description": "Bawn",
+      "thumbnail": "DV3_161649Z-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:30.845Z",
+      "startTime": "2013-01-19T05:16:45.498Z",
+      "endTime": "2013-01-19T06:13:45.392Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "Australia",
+      "country_code": "AU",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 16,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2013-01-19T06:13:45.392Z",
+          "startTime": "2013-01-19T05:16:45.498Z",
+          "assets": [
+            "/home/alexc/movies/DV3_161649Z/EO-IR/assets/DV3_161649Z.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [
+        "Australia"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "Ruhama1",
+      "description": " South Israel",
+      "thumbnail": "6M_RuhamaAACRemux-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:28.623Z",
+      "startTime": "2020-08-24T17:04:10.789Z",
+      "endTime": "2020-08-24T17:09:11.189Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 20,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-08-24T17:09:11.189Z",
+          "startTime": "2020-08-24T17:04:10.789Z",
+          "assets": [
+            "/home/alexc/movies/Ruhama1/EO-IR/assets/6M_RuhamaAACRemux.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [
+        "audio"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "Ovdat",
+      "description": "Southern Israel",
+      "thumbnail": "6M_Ovdat_web-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:24.493Z",
+      "startTime": "2020-02-06T06:29:21.000Z",
+      "endTime": "2020-02-06T06:43:24.700Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "-"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 23,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-02-06T06:43:24.700Z",
+          "startTime": "2020-02-06T06:29:21.000Z",
+          "assets": [
+            "/home/alexc/movies/Ovdat/EO-IR/assets/6M_Ovdat_web.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Herzelia4",
+      "description": "Central Israel",
+      "thumbnail": "Herzelia-4-1080p-6M-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:20.523Z",
+      "startTime": "2020-03-04T08:43:34.500Z",
+      "endTime": "2020-03-04T08:56:48.000Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "-"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 2720,
+            "height": 1536
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-03-04T08:56:48.000Z",
+          "startTime": "2020-03-04T08:43:34.500Z",
+          "assets": [
+            "/home/alexc/movies/Herzelia4/EO-IR/assets/Herzelia-4-1080p-6M.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Herzelia6",
+      "description": "Central Israel",
+      "thumbnail": "Herzelia-6-1080p-6M-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:18.071Z",
+      "startTime": "2020-03-08T09:05:42.500Z",
+      "endTime": "2020-03-08T09:11:44.700Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 15,
+          "tags": [],
+          "name": "EO",
+          "description": "Main EO",
+          "endTime": "2020-03-08T09:11:44.700Z",
+          "startTime": "2020-03-08T09:05:42.500Z",
+          "assets": [
+            "/home/alexc/movies/Herzelia6/EO/assets/Herzelia-6-1080p-6M.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Inlet_area_St_Lucie_River",
+      "description": "CSA",
+      "thumbnail": "Inlet_area_St_Lucie_River_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:16.413Z",
+      "startTime": "2016-02-11T19:12:36.098Z",
+      "endTime": "2016-02-11T19:17:13.786Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "#004dcf",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2016-02-11T19:17:13.786Z",
+          "startTime": "2016-02-11T19:12:36.098Z",
+          "assets": [
+            "/home/alexc/movies/Inlet_area_St_Lucie_River/EO-IR/assets/Inlet_area_St_Lucie_River_avc.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "High_altitude_St_Lucie_inlet",
+      "description": "CSA",
+      "thumbnail": "High_altitude_St_Lucie_inlet_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:14.812Z",
+      "startTime": "2016-02-11T19:18:14.693Z",
+      "endTime": "2016-02-11T19:21:51.408Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2016-02-11T19:21:51.408Z",
+          "startTime": "2016-02-11T19:18:14.693Z",
+          "assets": [
+            "/home/alexc/movies/High_altitude_St_Lucie_inlet/EO-IR/assets/High_altitude_St_Lucie_inlet_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Jupiter_Isl_Beach_North_to_South",
+      "description": "CSA",
+      "thumbnail": "Jupiter_Isl_Beach_North_to_South_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:13.010Z",
+      "startTime": "2016-02-20T22:12:51.176Z",
+      "endTime": "2016-02-20T22:17:44.207Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2016-02-20T22:17:44.207Z",
+          "startTime": "2016-02-20T22:12:51.176Z",
+          "assets": [
+            "/home/alexc/movies/Jupiter_Isl_Beach_North_to_South/EO-IR/assets/Jupiter_Isl_Beach_North_to_South_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "sunken_boat",
+      "description": "CSA",
+      "thumbnail": "sunken_boat_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:08.067Z",
+      "startTime": "2015-10-28T16:03:45.268Z",
+      "endTime": "2015-10-28T16:24:18.907Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 16,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2015-10-28T16:24:18.907Z",
+          "startTime": "2015-10-28T16:03:45.268Z",
+          "assets": [
+            "/home/alexc/movies/sunken_boat/EO-IR/assets/sunken_boat_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [
+        "boat"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "ManateesNearSandbar",
+      "description": "CSA",
+      "thumbnail": "ManateesNearSandbar_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:05.923Z",
+      "startTime": "2015-10-14T21:33:20.540Z",
+      "endTime": "2015-10-14T21:37:15.049Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 15,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2015-10-14T21:37:15.049Z",
+          "startTime": "2015-10-14T21:33:20.540Z",
+          "assets": [
+            "/home/alexc/movies/ManateesNearSandbar/EO-IR/assets/ManateesNearSandbar_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "SharksOfBathtubBeach",
+      "description": "CSA",
+      "thumbnail": "SharksOfBathtubBeach_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:03.073Z",
+      "startTime": "2015-10-14T21:28:25.005Z",
+      "endTime": "2015-10-14T21:32:55.845Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 22,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2015-10-14T21:32:55.845Z",
+          "startTime": "2015-10-14T21:28:25.005Z",
+          "assets": [
+            "/home/alexc/movies/SharksOfBathtubBeach/EO-IR/assets/SharksOfBathtubBeach_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "CSA-in-Action",
+      "description": "CSA",
+      "thumbnail": "CSA-in-Action_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:46:01.451Z",
+      "startTime": "2016-07-14T15:13:47.988Z",
+      "endTime": "2016-07-14T15:15:39.703Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2016-07-14T15:15:39.703Z",
+          "startTime": "2016-07-14T15:13:47.988Z",
+          "assets": [
+            "/home/alexc/movies/CSA-in-Action/EO-IR/assets/CSA-in-Action_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [
+        "boat"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "MCSO-2016-07-14-151204",
+      "description": "CSA",
+      "thumbnail": "MCSO-2016-07-14-151204_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:59.834Z",
+      "startTime": "2016-07-14T15:11:50.718Z",
+      "endTime": "2016-07-14T15:13:55.549Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2016-07-14T15:13:55.549Z",
+          "startTime": "2016-07-14T15:11:50.718Z",
+          "assets": [
+            "/home/alexc/movies/MCSO-2016-07-14-151204/EO-IR/assets/MCSO-2016-07-14-151204_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "MCSO-2016-07-15-164640",
+      "description": "CSA",
+      "thumbnail": "MCSO-2016-07-15-164640_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:58.109Z",
+      "startTime": "2016-07-15T16:46:26.632Z",
+      "endTime": "2016-07-15T16:53:21.267Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 16,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2016-07-15T16:53:21.267Z",
+          "startTime": "2016-07-15T16:46:26.632Z",
+          "assets": [
+            "/home/alexc/movies/MCSO-2016-07-15-164640/EO-IR/assets/MCSO-2016-07-15-164640_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Jupiter_Isl_Beach_South_to_North",
+      "description": "CSA",
+      "thumbnail": "Jupiter_Isl_Beach_South_to_North_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:56.413Z",
+      "startTime": "2016-02-20T22:17:59.484Z",
+      "endTime": "2016-02-20T22:22:25.268Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Helicopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 20,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2016-02-20T22:22:25.268Z",
+          "startTime": "2016-02-20T22:17:59.484Z",
+          "assets": [
+            "/home/alexc/movies/Jupiter_Isl_Beach_South_to_North/EO-IR/assets/Jupiter_Isl_Beach_South_to_North_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "GOPR1989_TT_Beach",
+      "description": "CSA",
+      "thumbnail": "GOPR1989_TT_Beach_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:53.494Z",
+      "startTime": "2014-10-07T17:49:30.000Z",
+      "endTime": "2014-10-07T17:55:44.000Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "-"
+      },
+      "country_name": "Trinidad and Tobago",
+      "country_code": "TT",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2014-10-07T17:55:44.000Z",
+          "startTime": "2014-10-07T17:49:30.000Z",
+          "assets": [
+            "/home/alexc/movies/GOPR1989_TT_Beach/EO-IR/assets/GOPR1989_TT_Beach_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "GOPR1998_TT_Valley",
+      "description": "CSA",
+      "thumbnail": "GOPR1998_TT_Valley_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:50.896Z",
+      "startTime": "2014-10-08T21:12:22.050Z",
+      "endTime": "2014-10-08T21:20:40.075Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "-"
+      },
+      "country_name": "Trinidad and Tobago",
+      "country_code": "TT",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 11,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2014-10-08T21:20:40.075Z",
+          "startTime": "2014-10-08T21:12:22.050Z",
+          "assets": [
+            "/home/alexc/movies/GOPR1998_TT_Valley/EO-IR/assets/GOPR1998_TT_Valley_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "CAE_2014_03_15_0_001",
+      "description": "CAE",
+      "thumbnail": "CAE_2014_03_15_0_001-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:47.891Z",
+      "startTime": "2014-03-15T09:30:19.616Z",
+      "endTime": "2014-03-15T09:40:19.582Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "-"
+      },
+      "country_name": "France",
+      "country_code": "FR",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 23,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2014-03-15T09:40:19.582Z",
+          "startTime": "2014-03-15T09:30:19.616Z",
+          "assets": [
+            "/home/alexc/movies/CAE_2014_03_15_0_001/EO-IR/assets/CAE_2014_03_15_0_001.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "CAE_2014_03_15_0_003",
+      "description": "CAE",
+      "thumbnail": "CAE_2014_03_15_0_003-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:44.752Z",
+      "startTime": "2014-03-15T09:50:19.715Z",
+      "endTime": "2014-03-15T10:00:19.582Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Plane",
+        "name": "-"
+      },
+      "country_name": "France",
+      "country_code": "FR",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 33,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2014-03-15T10:00:19.582Z",
+          "startTime": "2014-03-15T09:50:19.715Z",
+          "assets": [
+            "/home/alexc/movies/CAE_2014_03_15_0_003/EO-IR/assets/CAE_2014_03_15_0_003.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "GOPR7112",
+      "description": "CSA",
+      "thumbnail": "GOPR7112_avc-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:42.356Z",
+      "startTime": "2017-02-02T15:33:41.270Z",
+      "endTime": "2017-02-02T15:43:29.580Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "-"
+      },
+      "country_name": "United States",
+      "country_code": "US",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 18,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2017-02-02T15:43:29.580Z",
+          "startTime": "2017-02-02T15:33:41.270Z",
+          "assets": [
+            "/home/alexc/movies/GOPR7112/EO-IR/assets/GOPR7112_avc.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Herzelia2",
+      "description": "Central Israel",
+      "thumbnail": "Herzelia-2-1080p-6M-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:39.771Z",
+      "startTime": "2020-02-05T06:58:43.000Z",
+      "endTime": "2020-02-05T07:05:42.600Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 16,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-02-05T07:05:42.600Z",
+          "startTime": "2020-02-05T06:58:43.000Z",
+          "assets": [
+            "/home/alexc/movies/Herzelia2/EO-IR/assets/Herzelia-2-1080p-6M.ts"
+          ]
+        }
+      ],
+      "rating": 4,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Ashdod1",
+      "description": "Southern Israel",
+      "thumbnail": "Ashdod-1-1080p-6M-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:37.029Z",
+      "startTime": "2020-02-03T10:11:07.000Z",
+      "endTime": "2020-02-03T10:18:41.700Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 15,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-02-03T10:18:41.700Z",
+          "startTime": "2020-02-03T10:11:07.000Z",
+          "assets": [
+            "/home/alexc/movies/Ashdod1/EO-IR/assets/Ashdod-1-1080p-6M.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Ashdod2",
+      "description": "Southern Israel",
+      "thumbnail": "Ashdod-2-1080p-6M-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:34.998Z",
+      "startTime": "2020-02-03T10:41:20.000Z",
+      "endTime": "2020-02-03T10:45:46.700Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 15,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-02-03T10:45:46.700Z",
+          "startTime": "2020-02-03T10:41:20.000Z",
+          "assets": [
+            "/home/alexc/movies/Ashdod2/EO-IR/assets/Ashdod-2-1080p-6M.ts"
+          ]
+        }
+      ],
+      "rating": 3,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Eilat2-dolphins",
+      "description": "Southern Israel",
+      "thumbnail": "Eilat2-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:31.678Z",
+      "startTime": "2020-07-18T00:24:23.000Z",
+      "endTime": "2020-07-18T00:35:15.400Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 27,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-07-18T00:35:15.400Z",
+          "startTime": "2020-07-18T00:24:23.000Z",
+          "assets": [
+            "/home/alexc/movies/Eilat2-dolphins/EO-IR/assets/Eilat2.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Yeruham1",
+      "description": "Yeruham1",
+      "thumbnail": "Yeruham1-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:29.962Z",
+      "startTime": "2020-07-22T13:26:06.000Z",
+      "endTime": "2020-07-22T13:29:08.000Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI MAvic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 21,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2020-07-22T13:29:08.000Z",
+          "startTime": "2020-07-22T13:26:06.000Z",
+          "assets": [
+            "/home/alexc/movies/Yeruham1/EO-IR/assets/Yeruham1.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Yeruham2",
+      "description": "Yeruham2",
+      "thumbnail": "Yeruham2-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:25.739Z",
+      "startTime": "2020-07-22T13:31:38.000Z",
+      "endTime": "2020-07-22T13:45:37.600Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 28,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2020-07-22T13:45:37.600Z",
+          "startTime": "2020-07-22T13:31:38.000Z",
+          "assets": [
+            "/home/alexc/movies/Yeruham2/EO-IR/assets/Yeruham2.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Maktesh_Yeruham1",
+      "description": "Clouds",
+      "thumbnail": "MakteshYeruham1-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:23.438Z",
+      "startTime": "2020-07-23T00:15:56.000Z",
+      "endTime": "2020-07-23T00:20:58.600Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 37,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2020-07-23T00:20:58.600Z",
+          "startTime": "2020-07-23T00:15:56.000Z",
+          "assets": [
+            "/home/alexc/movies/Maktesh_Yeruham1/EO-IR/assets/MakteshYeruham1.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Binyamin",
+      "description": "Givat hayekavim",
+      "thumbnail": "binyamin-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:21.612Z",
+      "startTime": "2020-08-03T11:49:57.000Z",
+      "endTime": "2020-08-03T11:53:01.800Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "Heron"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 47,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2020-08-03T11:53:01.800Z",
+          "startTime": "2020-08-03T11:49:57.000Z",
+          "assets": [
+            "/home/alexc/movies/Binyamin/EO-IR/assets/binyamin.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Maktesh_Yeruham2",
+      "description": "Clouds",
+      "thumbnail": "MakteshYeruham2-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:18.243Z",
+      "startTime": "2020-07-23T00:29:58.000Z",
+      "endTime": "2020-07-23T00:41:16.000Z",
+      "usergroups": [],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic 2 pro"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 38,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Main EO/IR",
+          "endTime": "2020-07-23T00:41:16.000Z",
+          "startTime": "2020-07-23T00:29:58.000Z",
+          "assets": [
+            "/home/alexc/movies/Maktesh_Yeruham2/EO-IR/assets/MakteshYeruham2.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [
+        "clouds"
+      ],
+      "sortOrder": null
+    },
+    {
+      "name": "Eilat3",
+      "description": "Southern Israel",
+      "thumbnail": "Eilat3-all_aac-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:15.423Z",
+      "startTime": "2020-07-18T00:46:13.000Z",
+      "endTime": "2020-07-18T00:54:31.400Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 123,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-07-18T00:54:31.400Z",
+          "startTime": "2020-07-18T00:46:13.000Z",
+          "assets": [
+            "/home/alexc/movies/Eilat3/EO-IR/assets/Eilat3-all_aac.ts"
+          ]
+        }
+      ],
+      "rating": 5,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Austria-Atzing",
+      "description": "Austria flight",
+      "thumbnail": "Austria-Atzing-720-Sync-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:13.934Z",
+      "startTime": "2020-01-21T13:22:42.000Z",
+      "endTime": "2020-01-21T13:26:36.900Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "#004dcf",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Austria",
+      "country_code": "AT",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 14,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-01-21T13:26:36.900Z",
+          "startTime": "2020-01-21T13:22:42.000Z",
+          "assets": [
+            "/home/alexc/movies/Austria-Atzing/EO-IR/assets/Austria-Atzing-720-Sync.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "Austria-Maishofen",
+      "description": "Austria flight",
+      "thumbnail": "Austria-Maishofen-720_Sync-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:11.901Z",
+      "startTime": "2020-01-22T13:28:39.200Z",
+      "endTime": "2020-01-22T13:37:13.000Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "#004dcf",
+          "weight": 2
+        },
+        "type": "Quadcopter",
+        "name": "DJI Mavic Mini"
+      },
+      "country_name": "Austria",
+      "country_code": "AT",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1280,
+            "height": 720
+          },
+          "type": "video",
+          "views": 15,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2020-01-22T13:37:13.000Z",
+          "startTime": "2020-01-22T13:28:39.200Z",
+          "assets": [
+            "/home/alexc/movies/Austria-Maishofen/EO-IR/assets/Austria-Maishofen-720_Sync.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    },
+    {
+      "name": "hlsTest",
+      "description": "HlsTest",
+      "thumbnail": "2t-sm.jpg",
+      "state": "Ready",
+      "creationTime": "2021-08-15T06:45:10.646Z",
+      "startTime": "2010-09-02T04:06:31.607Z",
+      "endTime": "2010-09-02T04:07:23.467Z",
+      "usergroups": [
+        "Demo"
+      ],
+      "platform": {
+        "presentation": {
+          "icon": "glyphicon-picture",
+          "color": "blue",
+          "weight": 2
+        },
+        "type": "Camera",
+        "name": "-"
+      },
+      "country_name": "Israel",
+      "country_code": "IL",
+      "sensors": [
+        {
+          "hlsProps": {
+            "segmentDuration": 10,
+            "width": 1920,
+            "height": 1088
+          },
+          "type": "video",
+          "views": 26,
+          "tags": [],
+          "name": "EO-IR",
+          "description": "Sensor",
+          "endTime": "2010-09-02T04:07:23.467Z",
+          "startTime": "2010-09-02T04:06:31.607Z",
+          "assets": [
+            "/home/alexc/movies/hlsTest/EO-IR/assets/2t.ts"
+          ]
+        }
+      ],
+      "rating": null,
+      "tags": [],
+      "sortOrder": null
+    }
+  ]

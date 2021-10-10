@@ -92,8 +92,8 @@
             "program": "${workspaceRoot}/src/app.js",
             "stopOnEntry": false,
             "args": [             
-                "-i=./data/missionListSsdnodes.csv",
-                "-s=http://stserver.impleotv.com",
+                "-i=./data/missionJsonList.json",
+                "-s=http://209.182.233.233:8080",
                 "-u=superAdmin",
                 "-p=123456"
             ],
@@ -111,8 +111,7 @@
             "sourceMaps": false,
             "outFiles": [],
             "outputCapture": "std"
-        },        
-        ,
+        },
         {
             "name": "Upload (SSDNodes test)",
             "type": "node",
