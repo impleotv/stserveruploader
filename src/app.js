@@ -69,6 +69,10 @@ async function start() {
         // Do processing
         await processAllMissions(config);
 
+        // Import bookmarks
+        await importBookmarks(config);
+
+
         const end = new Date().getTime();
         console.log(colors.green(`Processing complete (in ${moment.duration(end - start, 'milliseconds').humanize()})`));
 
@@ -542,7 +546,7 @@ async function processAllMissions(config) {
                                     if (info.value.phase === 'start')
                                         progressMessage = colors.magenta('calculating...');
                                     else {
-                                        segmentName = `${info.value.area.toFixed(1)} sq. km`
+                                        segmentName = `${info.value.area ? info.value.area.toFixed(1) : 0} sq. km`
                                         progressMessage = colors.green('complete.');
                                     }
 
@@ -587,6 +591,46 @@ async function processAllMissions(config) {
             })
     })
 }
+
+
+/**
+ * Process bookmarks
+ */
+async function importBookmarks(config) {
+
+    return new Promise(async (resolve, reject) => {
+        // Go over the mission list and extract bookmarks.
+       
+        for (const m of config) {
+            try {
+                if (m.hasOwnProperty('bookmarks') && Array.isArray(m.bookmarks) && m.bookmarks.length > 0) {
+                    console.log(`Import ${m.bookmarks.length} bookmarks for mission ${m.name}`);   
+                                     
+                    for (const bm of m.bookmarks) {
+                        // Fill the names, if not provided (legacy schema)
+                        if(!bm.missionName)
+                            bm.missionName = m.name;
+                        if(!bm.sensorName && Array.isArray(m.sensors) && m.sensors.length > 0)    
+                            bm.sensorName = m.sensors[0].name;
+
+                        // Create bookmark
+                        try {
+                            const ret = await axios.post(`${server}/api/bookmarks`, bm, { headers: { 'Authorization': `Basic ${token}` } });       
+                        } catch (error) {
+                            console.log(colors.red('Error importing bookmark: ') + `${error.message}.  ${error.response ? error.response.data : ''}`);
+                        }
+                    }
+                }
+            } catch (error) {
+
+                console.log(colors.red('Error importing bookmarks: ') + `${error.message}`);
+            }
+        }
+        resolve();
+    })
+}
+
+
 
 
 /**
