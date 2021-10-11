@@ -573,7 +573,7 @@ async function processAllMissions(config) {
                                 operationType = 'Area Calc';
 
                                 if (info.value.phase === 'start') progressMessage = _colors2.default.magenta('calculating...');else {
-                                    segmentName = info.value.area.toFixed(1) + ' sq. km';
+                                    segmentName = info.value.area ? info.value.area.toFixed(1) : 0 + ' sq. km';
                                     progressMessage = _colors2.default.green('complete.');
                                 }
 

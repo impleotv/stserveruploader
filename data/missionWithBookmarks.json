@@ -1,7 +1,7 @@
 [
     {
-      "name": "Truck",
-      "description": "Test",
+      "name": "2T",
+      "description": "Test",   
       "thumbnail": "Truck-sm.jpg",
       "state": "Ready",
       "creationTime": "2021-10-10T09:22:55.186Z",
@@ -36,24 +36,7 @@
           "endTime": "2012-09-19T20:52:54.296Z",
           "startTime": "2012-09-19T20:50:26.484Z",
           "assets": [
-            "/home/alexc/videos/Truck/EO-IR/assets/Truck.ts"
-          ]
-        },
-        {
-          "name": "EO-IR",
-          "description": "Sensor",
-          "type": "video",
-          "views": 6,
-          "tags": [],
-          "hlsProps": {
-            "segmentDuration": 10,
-            "width": 1920,
-            "height": 1080
-          },
-          "endTime": "2012-09-19T20:52:54.296Z",
-          "startTime": "2012-09-19T20:50:26.484Z",
-          "assets": [
-            "/home/alexc/videos/Truck/EO-IR/assets/Truck.ts"
+            "/home/alexc/Movies/2t.ts"
           ]
         }
       ],
@@ -65,11 +48,11 @@
           "author": "alexc",
           "editor": "alexc",
           "startTime": "2012-09-19T20:50:58.925Z",
-          "position": 31.72,
+          "position": 11.72,
           "color": "blue"
         },
         {
-          "missionName": "Truck",
+          "missionName": "2T",
           "sensorName": "EO-IR",
           "title": "BM2",
           "text": "BM2",
@@ -77,7 +60,7 @@
           "author": "alexc",
           "editor": "alexc",
           "startTime": "2012-09-19T20:51:35.865Z",
-          "position": 68.4,
+          "position": 42.4,
           "color": "blue"
         }
       ],

@@ -86,6 +86,33 @@
             "outputCapture": "std"
         },
         {
+            "name": "Upload json with bookmarks (Linux)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/app.js",
+            "stopOnEntry": false,
+            "args": [             
+                "-i=./data/missionWithBookmarks.json",
+                "-s=http://192.168.1.32:8080",
+                "-u=superAdmin",
+                "-p=123456"
+            ],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy",
+                "--experimental-modules"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "integratedTerminal",
+            "sourceMaps": false,
+            "outFiles": [],
+            "outputCapture": "std"
+        },
+        {
             "name": "Upload (SSDNodes)",
             "type": "node",
             "request": "launch",
