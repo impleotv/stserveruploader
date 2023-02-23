@@ -33,7 +33,6 @@ stserveruploader.exe -i ./data/missionList.csv -s http://localhost:8080  -u supe
 | -s       |  --server           | Server url                                           |
 | -u       |  --user             | User name                                            |
 | -p       |  --password         | Password                                             |
-| -v       |  --version          | Version info                                         |
 |          |  --printUsage       | Print args description (true/false)                  |
 
 

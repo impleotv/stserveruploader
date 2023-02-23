@@ -38,6 +38,8 @@ start();
 async function start() {
 
     try {
+        // const pjson = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
+        // console.log(colors.yellow(`Ver: ${pjson.version.toString()}`));
 
         if (!argv.input) {
             console.log(colors.red('Nothing to read. Please provide file path'));
@@ -641,10 +643,10 @@ function parseArguments() {
         parser = new argparse.ArgumentParser({ add_help: true, description: 'Uploader', epilog: 'Start Uploader...' });
         parser.add_argument('-i', '--input', { metavar: '', help: 'Input configuration file path' });
         parser.add_argument('-s', '--server', { metavar: '', help: 'Server url' });
-        parser.add_argument('-u', '--user', { metavar: '', help: 'User name' });
-        parser.add_argument('-p', '--password', { metavar: '', help: 'Password' });
+        parser.add_argument('-u', '--user', { metavar: '', default: "guest", help: 'User name' });
+        parser.add_argument('-p', '--password', { metavar: '', default: "guest", help: 'Password' });
         parser.add_argument('--printUsage', { metavar: '', default: 'false', help: 'Print args description (true/false)' });
-        parser.add_argument('-v', '--version', { metavar: '', help: 'Version' });
+  //      parser.add_argument('-v', '--version', action='store_true', nargs='*', { metavar: '', help: 'Version' });
 
         argv = parser.parse_args();
         if (JSON.parse(argv.printUsage.trim()))
