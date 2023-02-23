@@ -1,0 +1,44 @@
+[
+   {
+      "name": "Truck-json",
+      "description": "Test Mission",
+      "tags": "flight,test",
+      "usergroups": "Demo, Group1",
+      "platform": {
+         "name": "Heron",
+         "type": "Plane"
+      },
+      "securityClassification": "UNCLASSIFIED",
+      "sensors": [
+         {
+            "name": "EO/IR",
+            "description": "Main EO/IR",
+            "type": "video",
+            "tags": "camera",
+            "sampling": "200",
+            "files": "/home/alexc/Movies/ArcGIS/Truck.ts"
+         }
+      ]
+   },
+   {
+      "name": "Cheyenne-json",
+      "description": "Test Mission",
+      "tags": "flight,test",
+      "usergroups": "Demo, Group1",
+      "platform": {
+         "name": "Heron",
+         "type": "Plane"
+      },
+      "securityClassification": "UNCLASSIFIED",
+      "sensors": [
+         {
+            "name": "EO/IR",
+            "description": "Main EO/IR",
+            "type": "video",
+            "tags": "camera",
+            "sampling": "200",
+            "files": "/home/alexc/Movies/ArcGIS/Cheyenne.ts"
+         }
+      ]
+   }
+]
