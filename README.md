@@ -114,6 +114,4 @@ Platform type can be one of the following:
  default: 'Plane'
 
 
-
-
-© IMPLEOTV SYSTEMS LTD, 2021.
+© IMPLEOTV SYSTEMS LTD, 2023.

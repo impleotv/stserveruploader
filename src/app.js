@@ -38,6 +38,7 @@ start();
 async function start() {
 
     try {
+
         // const pjson = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
         // console.log(colors.yellow(`Ver: ${pjson.version.toString()}`));
 

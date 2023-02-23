@@ -2,8 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<<<<<<< HEAD
 ### [1.0.7](https://github.com/impleotv/stserveruploader/compare/v1.0.6...v1.0.7) (2023-02-23)
 
+=======
+>>>>>>> ff67ab9a62dba85e17b2d867b278a8715d715e51
 ### 1.0.6 (2023-02-23)
 
 

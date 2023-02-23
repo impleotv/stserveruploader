@@ -77,8 +77,11 @@ start();
 async function start() {
 
     try {
+<<<<<<< HEAD
         var pjson = JSON.parse(_fs2.default.readFileSync('./package.json', 'utf8'));
         console.log(_colors2.default.yellow('Ver: ' + pjson.version.toString()));
+=======
+>>>>>>> ff67ab9a62dba85e17b2d867b278a8715d715e51
 
         if (!argv.input) {
             console.log(_colors2.default.red('Nothing to read. Please provide file path'));
@@ -707,10 +710,17 @@ function parseArguments() {
         parser = new _argparse2.default.ArgumentParser({ add_help: true, description: 'Uploader', epilog: 'Start Uploader...' });
         parser.add_argument('-i', '--input', { metavar: '', help: 'Input configuration file path' });
         parser.add_argument('-s', '--server', { metavar: '', help: 'Server url' });
+<<<<<<< HEAD
         parser.add_argument('-u', '--user', { metavar: '', default: "guest", help: 'User name' });
         parser.add_argument('-p', '--password', { metavar: '', default: "guest", help: 'Password' });
         parser.add_argument('--printUsage', { metavar: '', default: 'false', help: 'Print args description (true/false)' });
         //      parser.add_argument('-v', '--version', action='store_true', nargs='*', { metavar: '', help: 'Version' });
+=======
+        parser.add_argument('-u', '--user', { metavar: '', help: 'User name' });
+        parser.add_argument('-p', '--password', { metavar: '', help: 'Password' });
+        parser.add_argument('--printUsage', { metavar: '', default: 'false', help: 'Print args description (true/false)' });
+        parser.add_argument('-v', '--version', { metavar: '', help: 'Version' });
+>>>>>>> ff67ab9a62dba85e17b2d867b278a8715d715e51
 
         argv = parser.parse_args();
         if (JSON.parse(argv.printUsage.trim())) parser.printHelp();

@@ -9,8 +9,11 @@ lerna-debug.log*
 *.pdf
 *.exe
 *.run
+<<<<<<< HEAD
 *.gz
 *.zip
+=======
+>>>>>>> ff67ab9a62dba85e17b2d867b278a8715d715e51
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
