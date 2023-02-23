@@ -1,0 +1,93 @@
+name: OnPushVersion
+
+on:
+  push:
+    branches: [ master ]  
+    tags:
+    - 'v*'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+   
+      - name: Setup NodeJs 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Cache dependencies and build outputs to improve workflow execution time.
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+      - name: Install dependencies
+        run: npm install
+      - name: Set env
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+      - name: Test
+        run: |
+          echo $RELEASE_VERSION
+          echo ${{ env.RELEASE_VERSION }}       
+      - name: Build
+        run: |
+          npm run build
+          npm run pkgAll
+                
+      - name: 📂 Upload install to FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ftp.impleotv.com
+          username: impleocontent@impleotv.com
+          password: ${{ secrets.FTP_IMPLEO_CONTENT }}
+          local-dir: ./installDist/
+          server-dir: stserver2/setup/
+   
+      - name: Upload to github Release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.REPO_TOKEN }}
+          file: ./installDist/stserver-install.tar.gz
+          asset_name: stserver-install.tar.gz
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "stserver-install"
+
+   
+      - name: Upload to github Release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.REPO_TOKEN }}
+          release_name: v{{ github.ref }}
+          file: ./installDist/stserver-in*.tar.gz
+          file_glob: true
+         # asset_name: stserver-install.tar.gz
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "stserver-install"
+
+
+      # - name: Build mcdocs      
+      #   uses: Tiryoh/actions-mkdocs@v0
+      #   with:
+      #     mkdocs_version: 'latest' # option
+      #     configfile: './Doc/stserverdoc/mkdocs.yml' 
+
+      # - name: Show doc 
+      #   run: |
+      #     ls -la ./Doc/stserverdoc/site/
+
+      # - name: Upload docs to FTP
+      #   uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      #   with:
+      #     server: ftp.impleotv.com
+      #     username: impleocontent@impleotv.com
+      #     password: ${{ secrets.FTP_IMPLEO_CONTENT }}
+      #     local-dir: ./Doc/stserverdoc/site/
+      #     server-dir: stserver2/help/
