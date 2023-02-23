@@ -108,6 +108,9 @@ async function start() {
         // Do processing
         await processAllMissions(config);
 
+        // Import bookmarks
+        await importBookmarks(config);
+
         var end = new Date().getTime();
         console.log(_colors2.default.green('Processing complete (in ' + _moment2.default.duration(end - _start, 'milliseconds').humanize() + ')'));
 
@@ -573,7 +576,7 @@ async function processAllMissions(config) {
                                 operationType = 'Area Calc';
 
                                 if (info.value.phase === 'start') progressMessage = _colors2.default.magenta('calculating...');else {
-                                    segmentName = info.value.area ? info.value.area.toFixed(1) : 0 + ' sq. km';
+                                    segmentName = (info.value.area ? info.value.area.toFixed(1) : 0) + ' sq. km';
                                     progressMessage = _colors2.default.green('complete.');
                                 }
 
@@ -613,6 +616,84 @@ async function processAllMissions(config) {
             progressBar.stop();
             reject(err);
         });
+    });
+}
+
+/**
+ * Process bookmarks
+ */
+async function importBookmarks(config) {
+
+    return new Promise(async function (resolve, reject) {
+        // Go over the mission list and extract bookmarks.
+
+        var _iteratorNormalCompletion2 = true;
+        var _didIteratorError2 = false;
+        var _iteratorError2 = undefined;
+
+        try {
+            for (var _iterator2 = config[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+                var _m = _step2.value;
+
+                try {
+                    if (_m.hasOwnProperty('bookmarks') && Array.isArray(_m.bookmarks) && _m.bookmarks.length > 0) {
+                        console.log('Import ' + _m.bookmarks.length + ' bookmarks for mission ' + _m.name);
+
+                        var _iteratorNormalCompletion3 = true;
+                        var _didIteratorError3 = false;
+                        var _iteratorError3 = undefined;
+
+                        try {
+                            for (var _iterator3 = _m.bookmarks[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
+                                var bm = _step3.value;
+
+                                // Fill the names, if not provided (legacy schema)
+                                if (!bm.missionName) bm.missionName = _m.name;
+                                if (!bm.sensorName && Array.isArray(_m.sensors) && _m.sensors.length > 0) bm.sensorName = _m.sensors[0].name;
+
+                                // Create bookmark
+                                try {
+                                    var ret = await _axios3.default.post(server + '/api/bookmarks', bm, { headers: { 'Authorization': 'Basic ' + token } });
+                                } catch (error) {
+                                    console.log(_colors2.default.red('Error importing bookmark: ') + (error.message + '.  ' + (error.response ? error.response.data : '')));
+                                }
+                            }
+                        } catch (err) {
+                            _didIteratorError3 = true;
+                            _iteratorError3 = err;
+                        } finally {
+                            try {
+                                if (!_iteratorNormalCompletion3 && _iterator3.return) {
+                                    _iterator3.return();
+                                }
+                            } finally {
+                                if (_didIteratorError3) {
+                                    throw _iteratorError3;
+                                }
+                            }
+                        }
+                    }
+                } catch (error) {
+
+                    console.log(_colors2.default.red('Error importing bookmarks: ') + ('' + error.message));
+                }
+            }
+        } catch (err) {
+            _didIteratorError2 = true;
+            _iteratorError2 = err;
+        } finally {
+            try {
+                if (!_iteratorNormalCompletion2 && _iterator2.return) {
+                    _iterator2.return();
+                }
+            } finally {
+                if (_didIteratorError2) {
+                    throw _iteratorError2;
+                }
+            }
+        }
+
+        resolve();
     });
 }
 
