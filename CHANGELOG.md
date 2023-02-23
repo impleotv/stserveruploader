@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 1.0.6 (2023-02-23)
+
+
+### Bug Fixes
+
+* Update dependencies ([823b44c](https://github.com/impleotv/stserveruploader/commit/823b44c0099762dbc94b02ec9f7c95b05b72df2d))
+
 
 Change Log
 ==========
