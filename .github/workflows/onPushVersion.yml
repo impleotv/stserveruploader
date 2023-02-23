@@ -62,7 +62,7 @@ jobs:
       - name: Upload to github Release
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: ${{ secrets.REPO_TOKEN }}
+       #   repo_token: ${{ secrets.REPO_TOKEN }}
           file: ./stserveruploader.zip
           asset_name: stserveruploader.zip
           tag: ${{ github.ref }}
@@ -72,7 +72,7 @@ jobs:
       - name: Upload to github Release
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: ${{ secrets.REPO_TOKEN }}
+      #    repo_token: ${{ secrets.REPO_TOKEN }}
           file: ./stserveruploader.gz
           asset_name: stserveruploader.gz
           tag: ${{ github.ref }}
