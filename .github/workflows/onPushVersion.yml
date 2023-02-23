@@ -45,15 +45,15 @@ jobs:
         uses: vimtor/action-zip@v1
         with:
           files: stserveruploader.exe
-          dest: stserveruploader.zip
+          dest: ./dist/stserveruploader.zip
       - name: Zip linux executable
         run: |
-          tar -zcvf stserveruploader.gz ./stserveruploader.run
+          tar -zcvf ./dist/stserveruploader.gz ./stserveruploader.run
 
       - name: Upload to github Release
         uses: svenstaro/upload-release-action@v2
         with:
-          file: ./stserveruploader.zip
+          file: ./dist/stserveruploader.zip
           asset_name: stserveruploader.zip
           tag: ${{ github.ref }}
           overwrite: true
@@ -62,8 +62,18 @@ jobs:
       - name: Upload to github Release
         uses: svenstaro/upload-release-action@v2
         with:
-          file: ./stserveruploader.gz
+          file: ./dist/stserveruploader.gz
           asset_name: stserveruploader.gz
           tag: ${{ github.ref }}
           overwrite: true
           body: "stserveruploader"
+
+      - name: 📂 Upload install to FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          server: ftp.impleotv.com
+          username: impleocontent@impleotv.com
+          password: ${{ secrets.FTP_IMPLEO_CONTENT }}
+          local-dir: ./dist/
+          server-dir: stserver2/stserveruploader/
+   
