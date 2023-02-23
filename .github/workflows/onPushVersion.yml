@@ -47,7 +47,7 @@ jobs:
           files: stserveruploader.exe
           dest: stserveruploader.zip
       - name: Zip linux executable
-      run: |
+        run: |
            tar -zcvf stserveruploader.gz ./stserveruploader.run
 
       # - name: 📂 Upload install to FTP
